@@ -1,0 +1,103 @@
+# LAVA 2026 — Single Source of Truth Config
+#
+# Override via CLI dotlist:
+#   python run.py retriever.max_pages=10 model.qwen.backend=transformers
+#
+# Or via SLURM env var:
+#   OVERRIDES="data.sample=20" sbatch scripts/job_lava.slurm
+#
+# Resolved config snapshot saved to runs/<JOB_ID>/config_resolved.yaml per run.
+
+model:
+  qwen:
+    path: /datastore/${oc.env:USER}/models/Qwen3.6-27B
+    backend: vllm                   # vllm | transformers
+    mode: vlm                       # text_only | vlm
+    vllm_url: http://localhost:8000/v1
+    gpu_memory_utilization: 0.50   # no ColQwen competing in Phase 2 → can use more
+    quantization: bitsandbytes       # 4-bit NF4
+    max_model_len: 32768
+    enable_thinking: false
+
+data:
+  dir: lava-challenge-2026
+  split: test                       # train | test
+  sample: null                      # null = all; int = first N questions
+
+parsing:
+  engine: pymupdf                   # fast text extraction; markdown mode preserves tables as HTML
+  cache_dir: cache/pages            # parsed page JSON cache
+  page_char_threshold: 200          # is_low_content cutoff
+  max_page_chars: 8000              # per-page hard cap
+
+retriever:
+  dense_model: intfloat/multilingual-e5-large
+  tokenizer: bigram                 # bigram | mecab
+  min_pages: 3
+  max_pages: 7
+  rrf_k: 60
+  threshold_ratio: 0.8
+
+visual:                      # ColQwen visual retrieval
+  enabled: true              # Phase 1: encode pages + queries; Phase 2: MaxSim from cache
+  retriever_model: /datastore/${oc.env:USER}/models/colqwen2.5-v0.2
+  retriever_dpi: 120
+  retriever_batch_size: 4
+  max_encode_pages: 40      # cap pages encoded per PDF
+
+vlm:                      # feed page images to Qwen VLM
+  enabled: true
+  image_dpi: 96
+  feed_image_when:                  # page-level conditions to trigger image feed
+    - is_low_content
+    - has_table
+  max_images_per_prompt: 6
+
+generation:
+  max_new_tokens:
+    number: 96
+    string: 160
+    unordered_list: 512
+    ordered_list: 384
+  max_prompt_tokens: 28000          # token-accurate budget
+
+post_process:
+  expand_evidence: true             # Issue #4: expand single-page evidence when top-2 RRF scores are close
+  expand_evidence_score_diff: 0.10  # max relative gap between RRF top-1 and top-2 to trigger expansion
+
+prompts:
+  system: |
+    You are an expert document analyst. Answer questions based ONLY on the provided document content. Each page is marked with "=== Page N ===". Output a raw JSON object ONLY. Do NOT write any analysis, reasoning, or explanation before or after the JSON. Your response MUST start with `{` immediately.
+  user_template: |
+    --- DOCUMENT ---
+    {document_text}
+    --- END DOCUMENT ---
+
+    Document language: {language}
+    Question: {question}
+    Answer format: {answer_format}
+
+    Format rules (follow exactly):
+    - string  → a plain text string.          Example: "answer": "東京"
+    - number  → a numeric value, no units.    Example: "answer": 42
+    - unordered_list → a JSON array of strings, order does not matter. ALWAYS use array even for one item. Example: "answer": ["東京", "大阪"]
+    - ordered_list   → a JSON array of strings, order matters.         ALWAYS use array even for one item. Example: "answer": ["第1位", "第2位"]
+
+    Evidence pages rules (Issue #4 fix — list ALL contributing pages):
+    - evidence_pages must contain EVERY page that contributed to the answer.
+    - If the answer combines information from multiple pages (e.g. a header on page 2 and a data table on page 5), list all of them: "evidence_pages": [2, 5]
+    - If the answer is a comparison or sum of values across pages, include every source page.
+    - Single-page example: answer fully on one page → "evidence_pages": [3]
+    - Multi-page example: answer spans two pages → "evidence_pages": [3, 7]
+
+    Zero-answer rules (Issue #5 fix — only use "0" as last resort):
+    - Use "0" or ["0"] ONLY when the document contains absolutely no relevant information about the question.
+    - For uncertain cases, provide your best inference from the closest evidence found. Do NOT default to "0" when any relevant content exists.
+    - First, identify in one sentence which retrieved page is most relevant, then output the JSON.
+    NEVER return null, empty string, or empty array [].
+
+    Respond with ONLY this JSON object (start with `{{` immediately, no preamble):
+    {{
+      "answer": <value matching the format rule above>,
+      "evidence_pages": [<1-indexed page numbers where evidence was found>]
+    }}
