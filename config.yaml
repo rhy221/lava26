@@ -90,11 +90,14 @@ prompts:
     - Single-page example: answer fully on one page → "evidence_pages": [3]
     - Multi-page example: answer spans two pages → "evidence_pages": [3, 7]
 
-    Zero-answer rules (Issue #5 fix — only use "0" as last resort):
-    - Use "0" or ["0"] ONLY when the document contains absolutely no relevant information about the question.
-    - For uncertain cases, provide your best inference from the closest evidence found. Do NOT default to "0" when any relevant content exists.
-    - First, identify in one sentence which retrieved page is most relevant, then output the JSON.
+    Zero-answer rules (use "0" as absolute last resort only):
+    - Use "0" or ["0"] ONLY when NO retrieved page contains ANY information relevant to the question.
+    - If any page contains partially relevant information, commit to your best inference — do NOT use "0".
+    - For number questions: extract the closest numeric value mentioned near the relevant topic.
+    - For string questions: extract the most relevant name, term, or phrase from the document.
+    - For list questions: extract every relevant item found, even if the list may be incomplete.
     NEVER return null, empty string, or empty array [].
+    NEVER output any text before the JSON — your response must start with `{{` immediately.
 
     Respond with ONLY this JSON object (start with `{{` immediately, no preamble):
     {{

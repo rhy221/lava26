@@ -146,9 +146,12 @@ def compare(before: dict, after: dict) -> None:
         a = after.get(key)
         if b is None or a is None:
             continue
-        arrow = "→"
-        change = f"{b} {arrow} {a}"
-        ok = "PASS" if a <= float(target.strip("<>=%s").strip()) else "FAIL" if "%" in target or "s" in target else ""
+        change = f"{b} → {a}"
+        try:
+            threshold = float(target.strip("<>=%s↑↓ "))
+            ok = "PASS" if a <= threshold else "FAIL"
+        except ValueError:
+            ok = ""  # non-numeric target like "↑"
         print(f"  {name:<30} {change:<20} target {target}  {ok}")
 
     for name, key in score_metrics:

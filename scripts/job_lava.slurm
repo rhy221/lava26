@@ -8,8 +8,8 @@
 #   Total budget: ~77 min < 2h ✓
 
 #SBATCH --job-name=lava_2026
-#SBATCH --output=/datastore/%u/LAVA2026/runs/slurm-%j-early.out
-#SBATCH --error=/datastore/%u/LAVA2026/runs/slurm-%j-early.err
+#SBATCH --output=/datastore/%u/LAVA2026_2/lava26/runs/slurm-%j-early.out
+#SBATCH --error=/datastore/%u/LAVA2026_2/lava26/runs/slurm-%j-early.err
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
@@ -27,7 +27,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:${LD_LIBRARY_PATH:-}
 
 # ── 2. KHAI BÁO BIẾN ─────────────────────────────────────────────────────────
 REQUIRED_VRAM=40000
-PROJECT_DIR=/datastore/$USER/LAVA2026
+PROJECT_DIR=/datastore/$USER/LAVA2026_2/lava26
 PYTHON=/datastore/$USER/miniconda3/envs/vqa-jv/bin/python
 VLLM=/datastore/$USER/miniconda3/envs/vqa-jv/bin/vllm
 MODEL_DIR=/datastore/$USER/models/Qwen3.6-27B
