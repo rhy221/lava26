@@ -163,6 +163,27 @@ attribution impossible.
 | `requirements.txt` | #2 (underthesea) |
 | `scripts/verify_fixes.py` | New — verification script |
 
+---
+
+## Issue #7 — Mostly-Scanned PDFs Invisible to VLM (post-run discovery)
+
+**Symptom (after first run):** Zero answers at 9.5% (59/624). Analysis of remaining zeros:
+17/59 zeros came from "mostly scanned" PDFs (lc_ratio ≥ 50%) — lc=14/17 PDF → only 3 text
+pages selected → 14 scanned pages completely ignored → answer never seen by model.
+
+**Root cause:** `len(text_bearing_pages) <= max_pages` branch selects only text pages.
+BM25/Dense scores scanned pages near-zero → hybrid retrieval also can't select them.
+VLM receives 3 pages of text; the answer is in a scanned page → model outputs "0".
+
+**Fix:** `run.py` + `config.yaml`
+- When `lc_ratio >= cfg.retriever.mixed_scan_threshold` (default 0.4) AND MaxSim available:
+  fill `max_pages - len(text_pages)` remaining slots with top scanned pages by MaxSim
+- Scanned pages have `is_low_content=True` → automatically fed as VLM images
+
+**Expected:** 17 fewer zeros → 9.5% → ~6.7% (≤ 8% target met)
+
+---
+
 ## Before vs After (Expected)
 
 | Metric | Before | Target |

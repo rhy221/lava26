@@ -610,6 +610,37 @@ def main():
             top_indices   = sorted(text_bearing_idx) if text_bearing_idx else list(range(num_pages))
             retrieval_tag = f"all_text({len(top_indices)}p)"
 
+            # Fix: "Mostly scanned" PDFs have only a few text pages, but the answer
+            # is often in one of the many scanned pages — which are invisible to the
+            # model because BM25/Dense scores them near-zero and they're never selected.
+            # Solution: when lc_ratio >= threshold AND MaxSim cache is available,
+            # supplement text selection with top scanned pages from MaxSim.
+            # Those scanned pages have is_low_content=True → their images are
+            # automatically fed to VLM by the existing feed_image_when logic.
+            lc_ratio = num_low_content / max(num_pages, 1)
+            mixed_threshold = getattr(cfg.retriever, "mixed_scan_threshold", 0.4)
+            n_slots = cfg.retriever.max_pages - len(top_indices)
+            if (lc_ratio >= mixed_threshold
+                    and n_slots > 0
+                    and doc_visual_emb is not None):
+                q_emb_mixed = precomp_query_embs.get(str(q_id))
+                if q_emb_mixed is not None:
+                    embs, enc_indices = doc_visual_emb
+                    local_ranked = maxsim_ranked(q_emb_mixed, embs)
+                    scanned_set = {i for i, p in enumerate(all_pages) if p["is_low_content"]}
+                    top_set = set(top_indices)
+                    extra: list[int] = []
+                    for pos in local_ranked:
+                        if len(extra) >= n_slots:
+                            break
+                        if pos < len(enc_indices):
+                            pidx = enc_indices[pos]
+                            if pidx < num_pages and pidx in scanned_set and pidx not in top_set:
+                                extra.append(pidx)
+                    if extra:
+                        top_indices = sorted(top_set | set(extra))
+                        retrieval_tag = f"mixed_text+maxsim({len(top_indices)}p)"
+
         else:
             # Issue #3 fix: removed effective_max inflation (+3/+1) that caused
             # 62% of cases to exceed the configured max_pages=7 cap.

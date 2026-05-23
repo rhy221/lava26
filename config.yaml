@@ -37,6 +37,7 @@ retriever:
   max_pages: 7
   rrf_k: 60
   threshold_ratio: 0.8
+  mixed_scan_threshold: 0.4        # lc_ratio >= this → supplement text pages with MaxSim scanned pages
 
 visual:                      # ColQwen visual retrieval
   enabled: true              # Phase 1: encode pages + queries; Phase 2: MaxSim from cache
