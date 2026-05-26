@@ -345,7 +345,7 @@ def run_preprocessing(df, pdf_dir, cfg, dense_retriever, clear_cache: bool = Fal
         dense_tag = "skip(scanned)" if (is_fully_scanned and dense_retriever is not None) \
                     else f"{t_dense:.1f}s"
         if parse_src == "pymupdf" or t_dense > 0.5:
-            print(f"  [{file_id}] {len(pages)}p ({n_lc} scanned) | "
+            print(f"  [{file_id}] {len(pages)}p ({n_ps} pure_scanned) | "
                   f"parse={t_parse:.1f}s ({parse_src}) | dense={dense_tag} | total={elapsed:.1f}s")
 
     step1_elapsed = time.time() - t_step1
