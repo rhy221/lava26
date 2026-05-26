@@ -147,14 +147,15 @@ fi
 
 # ColQwen unloaded after Phase 1 — Qwen can use 0.50 × 80GB = 40GB.
 # --enforce-eager disables CUDA graph capture to avoid the ~14 GiB memory spike.
-"$VLLM" serve "$MODEL_DIR" \
+# VLLM_PLUGINS="" disables paddlex plugin (expects ernie45 module missing in this vLLM version).
+VLLM_PLUGINS="" "$VLLM" serve "$MODEL_DIR" \
     --port $VLLM_PORT \
     --dtype bfloat16 \
     --quantization bitsandbytes \
     --load-format bitsandbytes \
     --max-model-len 32768 \
     --max-num-batched-tokens 8192 \
-    --gpu-memory-utilization 0.50 \
+    --gpu-memory-utilization 0.20 \
     --enforce-eager \
     --limit-mm-per-prompt '{"image": 6}' \
     --generation-config vllm \
