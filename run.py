@@ -39,13 +39,15 @@ from src.utils.retriever import DenseRetriever, hybrid_top_pages
 
 try:
     from src.utils.visual_retriever import (
-        VisualRetriever, render_pdf_pages, render_pdf_pages_selective, maxsim_ranked,
+        VisualRetriever, render_pdf_pages, render_pdf_pages_selective,
+        maxsim_ranked, maxsim_score_list,
     )
 except ImportError:
     VisualRetriever = None  # type: ignore[assignment,misc]
     def render_pdf_pages(pdf_path, dpi=120): return {}  # type: ignore[misc]
     def render_pdf_pages_selective(pdf_path, page_nums, dpi=120): return {}  # type: ignore[misc]
     def maxsim_ranked(q_emb, doc_emb_batches): return []  # type: ignore[misc]
+    def maxsim_score_list(q_emb, doc_emb_batches): return []  # type: ignore[misc]
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -226,16 +228,27 @@ def _cache_dirs(cfg):
 
 def _load_parsed_pages(file_id, pdf_path, dirs, cfg):
     """Load parsed pages: disk cache → pymupdf. Returns (pages: list[dict], source: str)."""
+    from src.utils.pdf_utils import SCANNED_CHAR_THRESHOLD
     cache_file = dirs["pages"] / f"{file_id}.json"
     if cache_file.exists():
         try:
-            return json.loads(cache_file.read_text(encoding="utf-8")), "cache"
+            pages = json.loads(cache_file.read_text(encoding="utf-8"))
+            # Back-fill fields absent in old cache files
+            for p in pages:
+                if "is_pure_scanned" not in p:
+                    p["is_pure_scanned"] = len(p.get("text", "")) < SCANNED_CHAR_THRESHOLD
+                if "has_table" not in p:
+                    p["has_table"] = False
+            return pages, "cache"
         except Exception:
             pass
 
     raw = extract_pages(str(pdf_path))
-    pages = [{"page_num": p, "text": t, "is_low_content": lc, "has_table": False}
-             for p, t, lc in raw]
+    pages = [
+        {"page_num": p, "text": t, "is_low_content": lc,
+         "is_pure_scanned": ps, "has_table": ht}
+        for p, t, lc, ps, ht in raw
+    ]
     if pages:
         cache_file.write_text(json.dumps(pages, ensure_ascii=False), encoding="utf-8")
     return pages, "pymupdf"
@@ -313,9 +326,11 @@ def run_preprocessing(df, pdf_dir, cfg, dense_retriever, clear_cache: bool = Fal
 
         all_parsed[file_id] = pages
 
-        # Skip dense encode for fully-scanned PDFs (empty text → useless embeddings)
-        n_lc = sum(1 for p in pages if p["is_low_content"])
-        is_fully_scanned = n_lc == len(pages)
+        # Skip dense encode for pure-scanned PDFs (no text layer → useless embeddings).
+        # Image-dominant pages (50-199 chars, is_low_content=True but not is_pure_scanned)
+        # still have tokenisable text, so we encode those.
+        n_ps = sum(1 for p in pages if p.get("is_pure_scanned", False))
+        is_fully_scanned = n_ps == len(pages)
 
         t_d = time.time()
         dense_skipped = True
@@ -552,10 +567,14 @@ def main():
             t_parse = time.time() - _t
 
         all_pages = page_cache[file_id]
-        num_pages       = len(all_pages)
-        num_low_content = sum(1 for p in all_pages if p["is_low_content"])
-        is_all_scanned  = num_low_content == num_pages
-        page_texts      = [p["text"] for p in all_pages]
+        num_pages        = len(all_pages)
+        num_low_content  = sum(1 for p in all_pages if p["is_low_content"])
+        num_pure_scanned = sum(1 for p in all_pages if p.get("is_pure_scanned", False))
+        # is_all_scanned: ALL pages are pure-scanned (< 50 chars) — no usable text anywhere.
+        # Previously used num_low_content == num_pages (< 200 chars), which falsely flagged
+        # image-dominant PDFs (50-199 chars/page) as all-scanned and skipped BM25/Dense.
+        is_all_scanned   = num_pure_scanned == num_pages
+        page_texts       = [p["text"] for p in all_pages]
 
         # ── Dense embeddings (disk cache → online encode) ─────────────────
         doc_emb = None
@@ -583,8 +602,14 @@ def main():
         # ColQwen MaxSim is NOT used for text-PDF retrieval (net negative vs
         # BM25+Dense baseline). For all-scanned PDFs, MaxSim drives both page
         # selection and image selection (Issue #6 fix).
-        text_bearing_idx = [i for i, p in enumerate(all_pages) if not p["is_low_content"]]
-        fused_scores: dict[int, float] = {}  # populated by hybrid path; used for Issue #4
+        #
+        # text_bearing_idx: pages included in BM25/Dense scoring.
+        # Uses is_pure_scanned (< 50 chars) rather than is_low_content (< 200 chars)
+        # so image-dominant pages (50-199 chars) contribute their sparse text to BM25.
+        # Pure-scanned pages (0-49 chars) are still excluded — no usable tokens.
+        text_bearing_idx = [i for i, p in enumerate(all_pages)
+                            if not p.get("is_pure_scanned", False)]
+        fused_scores: dict[int, float] = {}  # populated by retrieval; used for evidence expansion
 
         # Issue #2 fix: select tokenizer based on document language
         tokenizer_name = "vietnamese" if language == "vi" else cfg.retriever.tokenizer
@@ -596,11 +621,18 @@ def main():
             q_emb_for_ret = precomp_query_embs.get(str(q_id))
             if q_emb_for_ret is not None and doc_visual_emb is not None:
                 embs, enc_indices = doc_visual_emb
-                local_ranked = maxsim_ranked(q_emb_for_ret, embs)
+                raw_ms = maxsim_score_list(q_emb_for_ret, embs)
+                local_ranked = sorted(range(len(raw_ms)), key=lambda i: raw_ms[i], reverse=True)
                 top_indices = sorted(
                     enc_indices[i] for i in local_ranked[:cfg.retriever.max_pages]
                     if i < len(enc_indices) and enc_indices[i] < num_pages
                 )
+                # Populate fused_scores with MaxSim values so evidence expansion works
+                fused_scores = {
+                    enc_indices[i]: raw_ms[i]
+                    for i in range(len(raw_ms))
+                    if i < len(enc_indices) and enc_indices[i] < num_pages
+                }
                 retrieval_tag = f"maxsim_visual({len(top_indices)}p)"
             else:
                 top_indices = list(range(min(cfg.retriever.max_pages, num_pages)))
@@ -610,14 +642,12 @@ def main():
             top_indices   = sorted(text_bearing_idx) if text_bearing_idx else list(range(num_pages))
             retrieval_tag = f"all_text({len(top_indices)}p)"
 
-            # Fix: "Mostly scanned" PDFs have only a few text pages, but the answer
-            # is often in one of the many scanned pages — which are invisible to the
-            # model because BM25/Dense scores them near-zero and they're never selected.
-            # Solution: when lc_ratio >= threshold AND MaxSim cache is available,
-            # supplement text selection with top scanned pages from MaxSim.
-            # Those scanned pages have is_low_content=True → their images are
-            # automatically fed to VLM by the existing feed_image_when logic.
-            lc_ratio = num_low_content / max(num_pages, 1)
+            # Issue #7 fix: "Mostly scanned" PDFs have only a few text pages, but the
+            # answer is often in a pure-scanned page invisible to BM25/Dense.
+            # Supplement text selection with top pure-scanned pages by MaxSim.
+            # pure_scanned_set (not is_low_content) keeps image-dominant 50-199 char
+            # pages (already in top_indices) out of the supplement list.
+            lc_ratio = num_pure_scanned / max(num_pages, 1)
             mixed_threshold = getattr(cfg.retriever, "mixed_scan_threshold", 0.4)
             n_slots = cfg.retriever.max_pages - len(top_indices)
             if (lc_ratio >= mixed_threshold
@@ -626,8 +656,10 @@ def main():
                 q_emb_mixed = precomp_query_embs.get(str(q_id))
                 if q_emb_mixed is not None:
                     embs, enc_indices = doc_visual_emb
-                    local_ranked = maxsim_ranked(q_emb_mixed, embs)
-                    scanned_set = {i for i, p in enumerate(all_pages) if p["is_low_content"]}
+                    raw_ms = maxsim_score_list(q_emb_mixed, embs)
+                    local_ranked = sorted(range(len(raw_ms)), key=lambda i: raw_ms[i], reverse=True)
+                    pure_scanned_set = {i for i, p in enumerate(all_pages)
+                                        if p.get("is_pure_scanned", False)}
                     top_set = set(top_indices)
                     extra: list[int] = []
                     for pos in local_ranked:
@@ -635,11 +667,17 @@ def main():
                             break
                         if pos < len(enc_indices):
                             pidx = enc_indices[pos]
-                            if pidx < num_pages and pidx in scanned_set and pidx not in top_set:
+                            if pidx < num_pages and pidx in pure_scanned_set and pidx not in top_set:
                                 extra.append(pidx)
                     if extra:
                         top_indices = sorted(top_set | set(extra))
                         retrieval_tag = f"mixed_text+maxsim({len(top_indices)}p)"
+                    # Populate fused_scores for evidence expansion even in mixed path
+                    fused_scores = {
+                        enc_indices[i]: raw_ms[i]
+                        for i in range(len(raw_ms))
+                        if i < len(enc_indices) and enc_indices[i] < num_pages
+                    }
 
         else:
             # Issue #3 fix: removed effective_max inflation (+3/+1) that caused
@@ -659,6 +697,35 @@ def main():
                 f"{cfg.retriever.max_pages} pages"
             )
             retrieval_tag = f"hybrid(bm25+dense) top={len(top_indices)}/{num_pages}p"
+
+            # Blind-spot fix: Case D PDFs occasionally have a few pure-scanned pages
+            # (answer in an image/table scan) that BM25+Dense scores near-zero.
+            # If MaxSim is available and there are empty slots after adaptive_prune,
+            # supplement with the highest-MaxSim pure-scanned pages not already selected.
+            pure_scanned_set_d = {i for i, p in enumerate(all_pages)
+                                  if p.get("is_pure_scanned", False)}
+            unselected_scan = pure_scanned_set_d - set(top_indices)
+            n_room = cfg.retriever.max_pages - len(top_indices)
+            if unselected_scan and n_room > 0 and doc_visual_emb is not None:
+                q_emb_d = precomp_query_embs.get(str(q_id))
+                if q_emb_d is not None:
+                    embs_d, enc_indices_d = doc_visual_emb
+                    raw_ms_d = maxsim_score_list(q_emb_d, embs_d)
+                    local_ranked_d = sorted(range(len(raw_ms_d)),
+                                           key=lambda i: raw_ms_d[i], reverse=True)
+                    extra_d: list[int] = []
+                    for pos in local_ranked_d:
+                        if len(extra_d) >= n_room:
+                            break
+                        if pos < len(enc_indices_d):
+                            pidx = enc_indices_d[pos]
+                            if pidx in unselected_scan:
+                                extra_d.append(pidx)
+                                # Add MaxSim score to fused_scores for expansion awareness
+                                fused_scores[pidx] = raw_ms_d[pos]
+                    if extra_d:
+                        top_indices = sorted(set(top_indices) | set(extra_d))
+                        retrieval_tag += f"+scan({len(extra_d)}p)"
 
         selected      = [all_pages[i] for i in top_indices]
         selected_nums = [p["page_num"] for p in selected]
@@ -785,6 +852,7 @@ def main():
             "id": q_id, "file_id": file_id, "question": question,
             "answer_format": answer_format, "language": language,
             "num_pages": num_pages, "num_low_content": num_low_content,
+            "num_pure_scanned": num_pure_scanned,
             "retrieved_pages": None if is_all_pages else selected_nums,
             "predicted_answer": pred_answer, "predicted_pages": pred_pages,
             "raw_model_output": raw_output[:500],

@@ -134,6 +134,22 @@ class VisualRetriever:
         return sorted(range(len(all_scores)), key=lambda i: all_scores[i], reverse=True)
 
 
+def maxsim_score_list(q_emb: "torch.Tensor", doc_emb_batches: list) -> list[float]:
+    """Return raw MaxSim scores in page-position order (index i = encoded page i).
+
+    Used when callers need actual score values (e.g. evidence expansion comparison)
+    rather than just a ranked ordering.
+    """
+    q = q_emb.squeeze(0).float()   # (q_len, dim)
+    scores: list[float] = []
+    for batch in doc_emb_batches:
+        b = batch.float()                           # (batch_size, doc_len, dim)
+        sim = torch.einsum('qd,bpd->qbp', q, b)    # (q_len, batch_size, doc_len)
+        score = sim.max(dim=-1).values.sum(dim=0)   # (batch_size,)
+        scores.extend(score.tolist())
+    return scores
+
+
 def maxsim_ranked(q_emb: "torch.Tensor", doc_emb_batches: list) -> list:
     """MaxSim ranking without the ColQwen model — used in Phase 2 inference.
 
@@ -141,11 +157,5 @@ def maxsim_ranked(q_emb: "torch.Tensor", doc_emb_batches: list) -> list:
     doc_emb_batches: list[Tensor (batch_size, doc_seq_len, dim)] — from cache/visual/*.pt.
     Returns: 0-indexed page positions ranked by MaxSim score descending.
     """
-    q = q_emb.squeeze(0).float()   # (q_len, dim)
-    scores = []
-    for batch in doc_emb_batches:
-        b = batch.float()                                         # (batch_size, doc_len, dim)
-        sim = torch.einsum('qd,bpd->qbp', q, b)                  # (q_len, batch_size, doc_len)
-        score = sim.max(dim=-1).values.sum(dim=0)                 # (batch_size,)
-        scores.extend(score.tolist())
+    scores = maxsim_score_list(q_emb, doc_emb_batches)
     return sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)

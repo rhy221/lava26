@@ -74,24 +74,31 @@ def _extract_page_text(page) -> str:
     return page.get_text().strip()
 
 
-def extract_pages(pdf_path: str) -> list[tuple[int, str, bool]]:
+def extract_pages(pdf_path: str) -> list[tuple[int, str, bool, bool, bool]]:
     """
-    Return [(1-indexed page_num, text, is_low_content), ...] for all pages.
+    Return [(page_num, text, is_low_content, is_pure_scanned, has_table), ...] for all pages.
 
-    is_low_content=True for both:
-      - truly scanned pages (zero text layer)
-      - image-dominant pages (maps, flowcharts — sparse labels only)
-
-    Text is capped at MAX_PAGE_CHARS per page to prevent one dense page from
-    consuming the entire context budget.
+    is_low_content  = len(text) < IMAGE_DOM_CHAR_THRESHOLD (200) — sparse/image-dominant;
+                      triggers VLM image feed.
+    is_pure_scanned = len(text) < SCANNED_CHAR_THRESHOLD   (50)  — no usable text layer;
+                      excluded from BM25/Dense text retrieval.
+    has_table       = PyMuPDF find_tables() found ≥1 table on the page; triggers VLM image
+                      feed even when the page has enough text (is_low_content=False).
     """
     doc = fitz.open(pdf_path)
     pages = []
     for i in range(len(doc)):
-        text = _extract_page_text(doc[i])
+        page_obj = doc[i]
+        text = _extract_page_text(page_obj)
         text = text[:MAX_PAGE_CHARS]  # hard cap per page
-        is_low_content = len(text) < IMAGE_DOM_CHAR_THRESHOLD
-        pages.append((i + 1, text, is_low_content))
+        text_len = len(text)
+        is_low_content  = text_len < IMAGE_DOM_CHAR_THRESHOLD
+        is_pure_scanned = text_len < SCANNED_CHAR_THRESHOLD
+        try:
+            has_table = bool(page_obj.find_tables().tables)
+        except Exception:
+            has_table = False
+        pages.append((i + 1, text, is_low_content, is_pure_scanned, has_table))
     doc.close()
     return pages
 

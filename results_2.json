@@ -22,7 +22,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"札幌医科大学付属病院\",\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 5.96
+    "time_seconds": 7.45
   },
   {
     "id": "q_0017",
@@ -47,7 +47,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 60000,\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 4.1
+    "time_seconds": 4.85
   },
   {
     "id": "q_0018",
@@ -71,7 +71,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 4,\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 4.73
+    "time_seconds": 6.67
   },
   {
     "id": "q_0019",
@@ -87,7 +87,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"11:23\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 7.14
+    "time_seconds": 9.76
   },
   {
     "id": "q_0020",
@@ -112,7 +112,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\", \"7\"],\n  \"evidence_pages\": [15]\n}",
-    "time_seconds": 4.34
+    "time_seconds": 5.28
   },
   {
     "id": "q_0021",
@@ -137,7 +137,7 @@
       98
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [98]\n}",
-    "time_seconds": 4.37
+    "time_seconds": 4.7
   },
   {
     "id": "q_0022",
@@ -162,7 +162,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 1.6,\n  \"evidence_pages\": [11, 16]\n}",
-    "time_seconds": 4.53
+    "time_seconds": 5.38
   },
   {
     "id": "q_0023",
@@ -186,7 +186,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": \"低い\",\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 5.27
+    "time_seconds": 6.1
   },
   {
     "id": "q_0024",
@@ -211,7 +211,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"京都\",\n    \"横浜\",\n    \"横浜\"\n  ],\n  \"evidence_pages\": [\n    10\n  ]\n}",
-    "time_seconds": 5.32
+    "time_seconds": 5.89
   },
   {
     "id": "q_0025",
@@ -236,7 +236,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"神奈川県\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.63
+    "time_seconds": 7.16
   },
   {
     "id": "q_0026",
@@ -260,7 +260,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"個人関連情報の提供における確認記録義務\",\n    \"容易照合に関する考え方\",\n    \"タグを通じて他社が直接取得することについての考え方\",\n    \"広告配信の反応データが“委託”に伴い提供できるケース\"\n  ],\n  \"evidence_pages\": [\n    8\n  ]\n}",
-    "time_seconds": 8.88
+    "time_seconds": 9.22
   },
   {
     "id": "q_0027",
@@ -285,7 +285,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 4,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 4.56
+    "time_seconds": 5.76
   },
   {
     "id": "q_0028",
@@ -310,7 +310,7 @@
       5
     ],
     "raw_model_output": "{\n\"answer\": 10.5,\n\"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 3.33
+    "time_seconds": 3.58
   },
   {
     "id": "q_0029",
@@ -326,7 +326,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 2,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.98
+    "time_seconds": 3.16
   },
   {
     "id": "q_0030",
@@ -350,7 +350,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": 10000,\n  \"evidence_pages\": [24]\n}",
-    "time_seconds": 6.78
+    "time_seconds": 7.11
   },
   {
     "id": "q_0031",
@@ -375,7 +375,7 @@
       65
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"麻しんワクチン接種率が高い\",\n    \"0.01\"\n  ],\n  \"evidence_pages\": [\n    4\n  ]\n}",
-    "time_seconds": 6.65
+    "time_seconds": 7.87
   },
   {
     "id": "q_0032",
@@ -392,7 +392,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"浅草線\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.3
+    "time_seconds": 3.69
   },
   {
     "id": "q_0033",
@@ -417,7 +417,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 2771,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.54
+    "time_seconds": 5.57
   },
   {
     "id": "q_0034",
@@ -447,7 +447,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [5, 7, 10, 12, 13, 14, 15]\n}",
-    "time_seconds": 6.12
+    "time_seconds": 7.01
   },
   {
     "id": "q_0035",
@@ -471,7 +471,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": [\"総トリハロメタン\"],\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 5.52
+    "time_seconds": 6.59
   },
   {
     "id": "q_0036",
@@ -496,7 +496,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"国語B\",\n  \"evidence_pages\": [2, 3]\n}",
-    "time_seconds": 4.01
+    "time_seconds": 4.67
   },
   {
     "id": "q_0037",
@@ -521,7 +521,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"東京都 八丈島\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.51
+    "time_seconds": 5.7
   },
   {
     "id": "q_0038",
@@ -546,7 +546,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"ブースター\",\n  \"evidence_pages\": [5, 6]\n}",
-    "time_seconds": 3.95
+    "time_seconds": 4.72
   },
   {
     "id": "q_0039",
@@ -570,7 +570,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 11,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 7.86
+    "time_seconds": 8.67
   },
   {
     "id": "q_0040",
@@ -594,7 +594,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": \"鶴川処理区\",\n  \"evidence_pages\": [18]\n}",
-    "time_seconds": 4.51
+    "time_seconds": 5.51
   },
   {
     "id": "q_0041",
@@ -611,7 +611,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"大江戸線\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.16
+    "time_seconds": 3.58
   },
   {
     "id": "q_0042",
@@ -637,7 +637,7 @@
       34
     ],
     "raw_model_output": "{\n  \"answer\": \"熊本県\",\n  \"evidence_pages\": [5, 29, 34]\n}",
-    "time_seconds": 4.7
+    "time_seconds": 5.41
   },
   {
     "id": "q_0043",
@@ -661,7 +661,7 @@
       28
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [28]\n}",
-    "time_seconds": 4.04
+    "time_seconds": 4.68
   },
   {
     "id": "q_0044",
@@ -686,7 +686,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"合理化手段型\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 3.47
+    "time_seconds": 4.13
   },
   {
     "id": "q_0045",
@@ -711,7 +711,7 @@
       33
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"被災海岸林\",\n    \"被災耕作地（湿性草地）\",\n    \"被災市街地\"\n  ],\n  \"evidence_pages\": [\n    32,\n    33\n  ]\n}",
-    "time_seconds": 8.1
+    "time_seconds": 8.93
   },
   {
     "id": "q_0046",
@@ -736,7 +736,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 210000,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 8.88
+    "time_seconds": 10.45
   },
   {
     "id": "q_0047",
@@ -760,7 +760,7 @@
       44
     ],
     "raw_model_output": "{\n  \"answer\": \"すさみ町\",\n  \"evidence_pages\": [44]\n}",
-    "time_seconds": 4.71
+    "time_seconds": 5.79
   },
   {
     "id": "q_0048",
@@ -790,7 +790,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [2, 3, 4, 5, 7, 9, 10]\n}",
-    "time_seconds": 5.87
+    "time_seconds": 6.9
   },
   {
     "id": "q_0049",
@@ -815,7 +815,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"筋肉増強！ 筋力トレーニング\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.11
+    "time_seconds": 6.43
   },
   {
     "id": "q_0050",
@@ -840,7 +840,7 @@
       64
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [22]\n}",
-    "time_seconds": 9.62
+    "time_seconds": 13.88
   },
   {
     "id": "q_0051",
@@ -865,7 +865,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"能登半島\",\n    \"佐渡島\",\n    \"別寒辺牛川集水域\",\n    \"石西礁湖\"\n  ],\n  \"evidence_pages\": [\n    12\n  ]\n}",
-    "time_seconds": 7.87
+    "time_seconds": 8.6
   },
   {
     "id": "q_0052",
@@ -890,7 +890,7 @@
       32
     ],
     "raw_model_output": "{\n  \"answer\": 70970,\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 4.68
+    "time_seconds": 5.48
   },
   {
     "id": "q_0053",
@@ -915,7 +915,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 6]\n}",
-    "time_seconds": 5.2
+    "time_seconds": 5.91
   },
   {
     "id": "q_0054",
@@ -931,7 +931,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"Settlement and urban area\", \"Paddy field\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.88
+    "time_seconds": 5.23
   },
   {
     "id": "q_0055",
@@ -956,7 +956,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"ヴェルサイユの宮廷教師\", \"アクトレス 女たちの舞台\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 8.53
+    "time_seconds": 11.0
   },
   {
     "id": "q_0056",
@@ -972,7 +972,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"OS\",\n    \"ソフトウェア\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 4.0
+    "time_seconds": 4.44
   },
   {
     "id": "q_0057",
@@ -997,7 +997,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"鉱業\",\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 8.5
+    "time_seconds": 9.69
   },
   {
     "id": "q_0058",
@@ -1013,7 +1013,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"浸水深50cm以上\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.79
+    "time_seconds": 4.0
   },
   {
     "id": "q_0059",
@@ -1038,7 +1038,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 11861,\n  \"evidence_pages\": [1, 10]\n}",
-    "time_seconds": 5.89
+    "time_seconds": 7.74
   },
   {
     "id": "q_0060",
@@ -1063,7 +1063,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"結果通知\",\n    \"結果の通知\"\n  ],\n  \"evidence_pages\": [\n    5,\n    7\n  ]\n}",
-    "time_seconds": 6.26
+    "time_seconds": 7.33
   },
   {
     "id": "q_0061",
@@ -1087,7 +1087,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"食用油\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.71
+    "time_seconds": 4.69
   },
   {
     "id": "q_0062",
@@ -1112,7 +1112,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\"ルドヴィーク\", \"ルツィエ\"],\n  \"evidence_pages\": [10, 11]\n}",
-    "time_seconds": 5.72
+    "time_seconds": 7.24
   },
   {
     "id": "q_0063",
@@ -1137,7 +1137,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"教育環境・生活環境づくり\",\n    \"放課後活動の拠点づくり\",\n    \"市民生活の拠点づくり\"\n  ],\n  \"evidence_pages\": [\n    17\n  ]\n}",
-    "time_seconds": 7.01
+    "time_seconds": 7.62
   },
   {
     "id": "q_0064",
@@ -1162,7 +1162,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"竹村俊則\",\n  \"evidence_pages\": [3, 14]\n}",
-    "time_seconds": 3.98
+    "time_seconds": 4.48
   },
   {
     "id": "q_0065",
@@ -1187,7 +1187,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"高岡市\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 5.22
+    "time_seconds": 6.97
   },
   {
     "id": "q_0066",
@@ -1201,17 +1201,14 @@
       2,
       3,
       4,
-      5,
-      6,
-      8,
-      15
+      5
     ],
-    "predicted_answer": "千葉県",
+    "predicted_answer": "茨城県",
     "predicted_pages": [
       4
     ],
-    "raw_model_output": "{\n  \"answer\": \"千葉県\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.99
+    "raw_model_output": "{\n  \"answer\": \"茨城県\",\n  \"evidence_pages\": [4]\n}",
+    "time_seconds": 3.08
   },
   {
     "id": "q_0067",
@@ -1227,7 +1224,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"ニワトリ\",\n    \"アヒル\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 4.3
+    "time_seconds": 4.56
   },
   {
     "id": "q_0068",
@@ -1252,7 +1249,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": [\"住宅金融公庫\", \"国民公庫\", \"中小公庫\", \"道路公団\", \"公営公庫\", \"住都公団\", \"開銀\", \"輸銀\"],\n  \"evidence_pages\": [19, 21]\n}",
-    "time_seconds": 7.96
+    "time_seconds": 8.98
   },
   {
     "id": "q_0069",
@@ -1268,7 +1265,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"量子イノベーションパーク\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.27
+    "time_seconds": 3.72
   },
   {
     "id": "q_0070",
@@ -1293,7 +1290,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"脇野沢地区\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 8.26
+    "time_seconds": 11.58
   },
   {
     "id": "q_0071",
@@ -1318,7 +1315,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"広川町\",\n    \"筑後市\",\n    \"上陽町\",\n    \"黒木町\",\n    \"星野村\",\n    \"立花町\"\n  ],\n  \"evidence_pages\": [\n    26,\n    27\n  ]\n}",
-    "time_seconds": 10.26
+    "time_seconds": 11.22
   },
   {
     "id": "q_0072",
@@ -1343,7 +1340,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 38,\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 7.74
+    "time_seconds": 10.38
   },
   {
     "id": "q_0073",
@@ -1360,7 +1357,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 2191,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.4
+    "time_seconds": 3.84
   },
   {
     "id": "q_0074",
@@ -1385,7 +1382,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"沖縄県\",\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 5.57
+    "time_seconds": 7.31
   },
   {
     "id": "q_0075",
@@ -1410,7 +1407,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": 20,\n  \"evidence_pages\": [11, 14]\n}",
-    "time_seconds": 3.55
+    "time_seconds": 3.84
   },
   {
     "id": "q_0076",
@@ -1436,7 +1433,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": [\"自動車損害賠償保障事業特別会計\", \"自動車検査登録特別会計\", \"特定国有財産整備特別会計\"],\n  \"evidence_pages\": [13, 14, 16]\n}",
-    "time_seconds": 7.85
+    "time_seconds": 8.96
   },
   {
     "id": "q_0077",
@@ -1460,7 +1457,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"ICT利活用（高）、イノベーション実現数（高）\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 5.52
+    "time_seconds": 6.77
   },
   {
     "id": "q_0078",
@@ -1484,7 +1481,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 208,\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 11.01
+    "time_seconds": 11.88
   },
   {
     "id": "q_0079",
@@ -1509,7 +1506,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"中国\"],\n  \"evidence_pages\": [21, 8]\n}",
-    "time_seconds": 3.58
+    "time_seconds": 4.01
   },
   {
     "id": "q_0080",
@@ -1534,7 +1531,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"地方公共団体工事費負担金収入\",\n    \"受託工事費納付金収入\",\n    \"附帯工事費負担金収入\",\n    \"手数料収入\"\n  ],\n  \"evidence_pages\": [\n    11,\n    12\n  ]\n}",
-    "time_seconds": 9.99
+    "time_seconds": 10.74
   },
   {
     "id": "q_0081",
@@ -1559,7 +1556,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"診察室\",\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 4.35
+    "time_seconds": 5.14
   },
   {
     "id": "q_0082",
@@ -1585,7 +1582,7 @@
       32
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [17, 18, 32]\n}",
-    "time_seconds": 4.49
+    "time_seconds": 5.25
   },
   {
     "id": "q_0083",
@@ -1610,7 +1607,7 @@
       38
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"西大友村\",\n    \"曾我谷津村\",\n    \"穴部村\"\n  ],\n  \"evidence_pages\": [\n    37,\n    38\n  ]\n}",
-    "time_seconds": 7.6
+    "time_seconds": 8.17
   },
   {
     "id": "q_0084",
@@ -1634,7 +1631,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"ます渕発電所\",\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 6.2
+    "time_seconds": 6.89
   },
   {
     "id": "q_0085",
@@ -1659,7 +1656,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 0.2,\n  \"evidence_pages\": [5, 15]\n}",
-    "time_seconds": 5.57
+    "time_seconds": 6.22
   },
   {
     "id": "q_0086",
@@ -1684,7 +1681,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"食料\"\n  ],\n  \"evidence_pages\": [\n    11,\n    15\n  ]\n}",
-    "time_seconds": 8.41
+    "time_seconds": 9.02
   },
   {
     "id": "q_0087",
@@ -1709,7 +1706,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": \"A市○○町2-3\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 3.64
+    "time_seconds": 4.07
   },
   {
     "id": "q_0088",
@@ -1734,7 +1731,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"左近山ショッピングセンター南側広場\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 6.67
+    "time_seconds": 8.9
   },
   {
     "id": "q_0089",
@@ -1759,7 +1756,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"静岡県\",\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 4.37
+    "time_seconds": 5.29
   },
   {
     "id": "q_0090",
@@ -1785,7 +1782,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": \"1日当たり医療費\",\n  \"evidence_pages\": [7, 8, 15]\n}",
-    "time_seconds": 5.37
+    "time_seconds": 6.82
   },
   {
     "id": "q_0091",
@@ -1809,7 +1806,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 100,\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 5.32
+    "time_seconds": 6.19
   },
   {
     "id": "q_0092",
@@ -1834,7 +1831,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"設備投資\",\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.66
+    "time_seconds": 5.6
   },
   {
     "id": "q_0093",
@@ -1859,7 +1856,7 @@
       41
     ],
     "raw_model_output": "{\n  \"answer\": 0.0049,\n  \"evidence_pages\": [40, 41]\n}",
-    "time_seconds": 5.44
+    "time_seconds": 6.52
   },
   {
     "id": "q_0094",
@@ -1881,7 +1878,7 @@
     "predicted_answer": "0",
     "predicted_pages": [],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": []\n}",
-    "time_seconds": 9.15
+    "time_seconds": 13.61
   },
   {
     "id": "q_0095",
@@ -1892,20 +1889,18 @@
     "num_pages": 17,
     "num_low_content": 14,
     "retrieved_pages": [
-      2,
-      4,
       9,
       14,
-      15,
-      16,
-      17
+      16
     ],
-    "predicted_answer": "0.01",
+    "predicted_answer": "0",
     "predicted_pages": [
-      17
+      9,
+      14,
+      16
     ],
-    "raw_model_output": "{\n  \"answer\": 0.01,\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 4.68
+    "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [9, 14, 16]\n}",
+    "time_seconds": 3.47
   },
   {
     "id": "q_0096",
@@ -1929,7 +1924,7 @@
       31
     ],
     "raw_model_output": "{\n  \"answer\": 6.7,\n  \"evidence_pages\": [31]\n}",
-    "time_seconds": 4.83
+    "time_seconds": 6.19
   },
   {
     "id": "q_0097",
@@ -1954,7 +1949,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"九州新幹線（長崎ルート）\",\n  \"evidence_pages\": [3, 7]\n}",
-    "time_seconds": 6.02
+    "time_seconds": 7.02
   },
   {
     "id": "q_0098",
@@ -1983,7 +1978,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"英語\",\n    \"10.2\"\n  ],\n  \"evidence_pages\": [\n    5,\n    9,\n    15,\n    17,\n    21,\n    29\n  ]\n}",
-    "time_seconds": 9.82
+    "time_seconds": 11.51
   },
   {
     "id": "q_0099",
@@ -2009,7 +2004,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"本人の求めに応じて届出書に係る当該本人が識別される個人データの第三者への提供を停止すること\",\n    \"第三者への提供を利用目的としていること\",\n    \"第三者に提供される個人データの項目\",\n    \"第三者への提供の方法\",\n    \"本人の求めを受け付ける方法\"\n  ],\n  \"evidence_pages\": [\n    6,\n    23,\n    24\n  ]\n}",
-    "time_seconds": 11.06
+    "time_seconds": 11.97
   },
   {
     "id": "q_0100",
@@ -2034,7 +2029,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 26,\n  \"evidence_pages\": [4, 7]\n}",
-    "time_seconds": 9.99
+    "time_seconds": 10.59
   },
   {
     "id": "q_0101",
@@ -2051,7 +2046,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"フェイク\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 4.12
+    "time_seconds": 4.77
   },
   {
     "id": "q_0102",
@@ -2077,7 +2072,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": 1.1,\n  \"evidence_pages\": [19, 23, 25]\n}",
-    "time_seconds": 5.72
+    "time_seconds": 6.79
   },
   {
     "id": "q_0103",
@@ -2102,7 +2097,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"優秀館\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 5.21
+    "time_seconds": 6.82
   },
   {
     "id": "q_0104",
@@ -2127,7 +2122,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"高さ\",\n    \"面積\"\n  ],\n  \"evidence_pages\": [\n    16,\n    17\n  ]\n}",
-    "time_seconds": 6.3
+    "time_seconds": 6.98
   },
   {
     "id": "q_0105",
@@ -2152,7 +2147,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"A\",\n  \"evidence_pages\": [10, 12]\n}",
-    "time_seconds": 6.84
+    "time_seconds": 7.65
   },
   {
     "id": "q_0106",
@@ -2175,7 +2170,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": \"青\",\n  \"evidence_pages\": [22, 23, 24]\n}",
-    "time_seconds": 3.8
+    "time_seconds": 3.99
   },
   {
     "id": "q_0107",
@@ -2191,7 +2186,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"流水で手を洗う\",\n    \"洗浄剤を手に取る\",\n    \"洗浄剤を十分な流水でよく洗い流す\",\n    \"手をふき乾燥させる\",\n    \"アルコールによる消毒\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 8.11
+    "time_seconds": 8.24
   },
   {
     "id": "q_0108",
@@ -2216,7 +2211,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"鶴ケ峰駅\",\n  \"evidence_pages\": [1, 3]\n}",
-    "time_seconds": 6.01
+    "time_seconds": 8.02
   },
   {
     "id": "q_0109",
@@ -2240,7 +2235,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"トリクロロ酢酸\"\n  ],\n  \"evidence_pages\": [\n    2\n  ]\n}",
-    "time_seconds": 6.6
+    "time_seconds": 7.55
   },
   {
     "id": "q_0110",
@@ -2265,7 +2260,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": 8036,\n  \"evidence_pages\": [13, 18]\n}",
-    "time_seconds": 7.23
+    "time_seconds": 7.96
   },
   {
     "id": "q_0111",
@@ -2289,7 +2284,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"鉛及びその化合物\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 5.03
+    "time_seconds": 5.83
   },
   {
     "id": "q_0112",
@@ -2314,7 +2309,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"会社代表\",\n  \"evidence_pages\": [8, 9]\n}",
-    "time_seconds": 4.75
+    "time_seconds": 5.83
   },
   {
     "id": "q_0113",
@@ -2339,7 +2334,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"自由学園南遺跡\"],\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.76
+    "time_seconds": 5.6
   },
   {
     "id": "q_0114",
@@ -2364,7 +2359,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"直方市大規模宴会場等事業継続支援給付金\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 8.02
+    "time_seconds": 9.85
   },
   {
     "id": "q_0115",
@@ -2388,7 +2383,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"償還金収入\",\n    \"雑収入\"\n  ],\n  \"evidence_pages\": [\n    6\n  ]\n}",
-    "time_seconds": 6.75
+    "time_seconds": 7.35
   },
   {
     "id": "q_0116",
@@ -2413,7 +2408,7 @@
       43
     ],
     "raw_model_output": "{\n  \"answer\": [\"製造業\"],\n  \"evidence_pages\": [42]\n}",
-    "time_seconds": 4.83
+    "time_seconds": 5.74
   },
   {
     "id": "q_0117",
@@ -2443,7 +2438,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [8, 12, 13, 16, 18, 20, 21]\n}",
-    "time_seconds": 7.4
+    "time_seconds": 8.43
   },
   {
     "id": "q_0118",
@@ -2465,7 +2460,7 @@
     "predicted_answer": "['0']",
     "predicted_pages": [],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": []\n}",
-    "time_seconds": 3.58
+    "time_seconds": 4.4
   },
   {
     "id": "q_0119",
@@ -2490,7 +2485,7 @@
       30
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 3.4
+    "time_seconds": 3.91
   },
   {
     "id": "q_0120",
@@ -2514,7 +2509,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 11,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 5.64
+    "time_seconds": 6.13
   },
   {
     "id": "q_0121",
@@ -2538,7 +2533,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"足なし網\",\n    \"地引網\",\n    \"足廻りという網\"\n  ],\n  \"evidence_pages\": [\n    7\n  ]\n}",
-    "time_seconds": 6.84
+    "time_seconds": 7.33
   },
   {
     "id": "q_0122",
@@ -2563,7 +2558,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 1.36,\n  \"evidence_pages\": [2, 10]\n}",
-    "time_seconds": 5.35
+    "time_seconds": 6.21
   },
   {
     "id": "q_0123",
@@ -2579,7 +2574,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"ガイドライン\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.14
+    "time_seconds": 3.12
   },
   {
     "id": "q_0124",
@@ -2603,7 +2598,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 5.8,\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 6.29
+    "time_seconds": 6.67
   },
   {
     "id": "q_0125",
@@ -2627,7 +2622,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": 3,\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 3.98
+    "time_seconds": 4.51
   },
   {
     "id": "q_0126",
@@ -2638,23 +2633,18 @@
     "num_pages": 20,
     "num_low_content": 17,
     "retrieved_pages": [
-      1,
-      2,
-      11,
-      12,
       14,
       17,
       18
     ],
-    "predicted_answer": "石油",
+    "predicted_answer": "0",
     "predicted_pages": [
-      1,
-      2,
+      14,
       17,
       18
     ],
-    "raw_model_output": "{\n  \"answer\": \"石油\",\n  \"evidence_pages\": [1, 2, 17, 18]\n}",
-    "time_seconds": 7.82
+    "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [14, 17, 18]\n}",
+    "time_seconds": 4.96
   },
   {
     "id": "q_0127",
@@ -2679,7 +2669,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"県の管理的地位(課長相当職以上)に占める女性職員の割合(知事部局等)\",\n    \"県の管理的地位(課長相当職以上)に占める女性職員の割合(教育委員会)\"\n  ],\n  \"evidence_pages\": [\n    12,\n    17\n  ]\n}",
-    "time_seconds": 11.22
+    "time_seconds": 12.26
   },
   {
     "id": "q_0128",
@@ -2708,7 +2698,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 20,\n  \"evidence_pages\": [3, 5, 6, 8, 11, 21]\n}",
-    "time_seconds": 6.01
+    "time_seconds": 7.31
   },
   {
     "id": "q_0129",
@@ -2724,7 +2714,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"インターフェロン又はペグインターフェロン単剤\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.45
+    "time_seconds": 3.51
   },
   {
     "id": "q_0130",
@@ -2753,7 +2743,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"御池地区\",\n  \"evidence_pages\": [1, 2, 4, 5, 7, 9]\n}",
-    "time_seconds": 6.46
+    "time_seconds": 7.25
   },
   {
     "id": "q_0131",
@@ -2782,7 +2772,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"2009\",\n  \"evidence_pages\": [2, 4, 5, 6, 7, 14]\n}",
-    "time_seconds": 5.53
+    "time_seconds": 6.38
   },
   {
     "id": "q_0132",
@@ -2807,7 +2797,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"三和町\", \"瑞穂町\"],\n  \"evidence_pages\": [6, 8]\n}",
-    "time_seconds": 4.45
+    "time_seconds": 5.11
   },
   {
     "id": "q_0133",
@@ -2824,7 +2814,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"ため池の氾濫\",\n    \"土砂災害\"\n  ],\n  \"evidence_pages\": [\n    1,\n    2\n  ]\n}",
-    "time_seconds": 5.87
+    "time_seconds": 6.1
   },
   {
     "id": "q_0134",
@@ -2849,7 +2839,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": [\"A社\"],\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 3.35
+    "time_seconds": 3.93
   },
   {
     "id": "q_0135",
@@ -2874,7 +2864,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"団体の氏名又は名称\",\n    \"代表者の氏名\"\n  ],\n  \"evidence_pages\": [\n    27,\n    29\n  ]\n}",
-    "time_seconds": 6.17
+    "time_seconds": 6.67
   },
   {
     "id": "q_0136",
@@ -2898,7 +2888,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 3,\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 5.16
+    "time_seconds": 6.01
   },
   {
     "id": "q_0137",
@@ -2923,7 +2913,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"3年目\",\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 4.56
+    "time_seconds": 5.66
   },
   {
     "id": "q_0138",
@@ -2948,7 +2938,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"携帯トイレ\",\n    \"マイナンバーカード\"\n  ],\n  \"evidence_pages\": [\n    5\n  ]\n}",
-    "time_seconds": 5.77
+    "time_seconds": 6.43
   },
   {
     "id": "q_0139",
@@ -2973,7 +2963,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"瑞梅寺川, 8.9\",\n  \"evidence_pages\": [8, 10]\n}",
-    "time_seconds": 4.44
+    "time_seconds": 5.12
   },
   {
     "id": "q_0140",
@@ -2989,7 +2979,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 3.7,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.02
+    "time_seconds": 3.42
   },
   {
     "id": "q_0141",
@@ -3000,20 +2990,16 @@
     "num_pages": 17,
     "num_low_content": 14,
     "retrieved_pages": [
-      5,
-      6,
-      7,
       9,
-      11,
       14,
       16
     ],
-    "predicted_answer": "0.06",
+    "predicted_answer": "0",
     "predicted_pages": [
-      7
+      9
     ],
-    "raw_model_output": "{\n  \"answer\": 0.06,\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 4.38
+    "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [9]\n}",
+    "time_seconds": 2.6
   },
   {
     "id": "q_0142",
@@ -3038,7 +3024,7 @@
       19
     ],
     "raw_model_output": "{\n  \"answer\": [\"ドイツ\", \"フランス\"],\n  \"evidence_pages\": [4, 19]\n}",
-    "time_seconds": 4.92
+    "time_seconds": 6.33
   },
   {
     "id": "q_0143",
@@ -3055,7 +3041,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"紫LED\",\n  \"evidence_pages\": [1, 5]\n}",
-    "time_seconds": 3.99
+    "time_seconds": 4.79
   },
   {
     "id": "q_0144",
@@ -3080,7 +3066,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"サービス業\",\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 5.56
+    "time_seconds": 7.46
   },
   {
     "id": "q_0145",
@@ -3106,7 +3092,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": \"入院勧告が解除された後\",\n  \"evidence_pages\": [6, 27, 29]\n}",
-    "time_seconds": 4.62
+    "time_seconds": 5.18
   },
   {
     "id": "q_0146",
@@ -3131,7 +3117,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"アメリカ\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 4.2
+    "time_seconds": 4.93
   },
   {
     "id": "q_0147",
@@ -3156,7 +3142,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": 26,\n  \"evidence_pages\": [1, 29]\n}",
-    "time_seconds": 4.89
+    "time_seconds": 5.99
   },
   {
     "id": "q_0148",
@@ -3184,7 +3170,7 @@
       31
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [13, 27, 29, 30, 31]\n}",
-    "time_seconds": 11.26
+    "time_seconds": 15.43
   },
   {
     "id": "q_0149",
@@ -3201,7 +3187,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"地震にあったら、まず身の安全\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 5.07
+    "time_seconds": 5.41
   },
   {
     "id": "q_0150",
@@ -3226,7 +3212,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"大きな外科手術\",\n    \"献血\"\n  ],\n  \"evidence_pages\": [\n    3\n  ]\n}",
-    "time_seconds": 4.91
+    "time_seconds": 5.6
   },
   {
     "id": "q_0151",
@@ -3251,7 +3237,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [27]\n}",
-    "time_seconds": 3.04
+    "time_seconds": 3.57
   },
   {
     "id": "q_0152",
@@ -3267,7 +3253,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"0.1m以上1.0m未満\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.09
+    "time_seconds": 4.44
   },
   {
     "id": "q_0153",
@@ -3292,7 +3278,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"本市への観光入込客数（年間）、1,314,100人\",\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 6.54
+    "time_seconds": 7.8
   },
   {
     "id": "q_0154",
@@ -3317,7 +3303,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"個人識別符号\",\n    \"特定個人情報\"\n  ],\n  \"evidence_pages\": [\n    2,\n    3\n  ]\n}",
-    "time_seconds": 5.68
+    "time_seconds": 6.44
   },
   {
     "id": "q_0155",
@@ -3342,7 +3328,7 @@
       34
     ],
     "raw_model_output": "{\n  \"answer\": \"新井村\",\n  \"evidence_pages\": [25, 34]\n}",
-    "time_seconds": 4.67
+    "time_seconds": 5.18
   },
   {
     "id": "q_0156",
@@ -3367,7 +3353,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 4.72
+    "time_seconds": 5.82
   },
   {
     "id": "q_0157",
@@ -3392,7 +3378,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": \"20～49歳\",\n  \"evidence_pages\": [4, 11]\n}",
-    "time_seconds": 4.82
+    "time_seconds": 5.9
   },
   {
     "id": "q_0158",
@@ -3416,7 +3402,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"八女市\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 5.16
+    "time_seconds": 6.07
   },
   {
     "id": "q_0159",
@@ -3441,7 +3427,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"変化しない（一貫して正である）\",\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 4.72
+    "time_seconds": 5.64
   },
   {
     "id": "q_0160",
@@ -3470,7 +3456,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [1, 2, 3, 4, 5, 6]\n}",
-    "time_seconds": 6.98
+    "time_seconds": 7.95
   },
   {
     "id": "q_0161",
@@ -3495,7 +3481,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 3.61
+    "time_seconds": 4.35
   },
   {
     "id": "q_0162",
@@ -3520,7 +3506,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\"小中学校教職員等\", \"警察職員\", \"消防職員\", \"高校教職員\"],\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 5.67
+    "time_seconds": 6.68
   },
   {
     "id": "q_0163",
@@ -3536,7 +3522,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 2.5,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.79
+    "time_seconds": 4.16
   },
   {
     "id": "q_0164",
@@ -3557,7 +3543,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"受付\",\n    \"最終審査\",\n    \"手数料\"\n  ],\n  \"evidence_pages\": [\n    4\n  ]\n}",
-    "time_seconds": 4.74
+    "time_seconds": 5.16
   },
   {
     "id": "q_0165",
@@ -3582,7 +3568,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": [\"（株）三凌商事\"],\n  \"evidence_pages\": [24, 25]\n}",
-    "time_seconds": 5.09
+    "time_seconds": 5.84
   },
   {
     "id": "q_0166",
@@ -3607,7 +3593,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"筑後地域\",\n  \"evidence_pages\": [5, 9]\n}",
-    "time_seconds": 5.89
+    "time_seconds": 7.96
   },
   {
     "id": "q_0167",
@@ -3629,7 +3615,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"総務課\",\n    \"総合支所\"\n  ],\n  \"evidence_pages\": [\n    3,\n    4\n  ]\n}",
-    "time_seconds": 4.84
+    "time_seconds": 5.2
   },
   {
     "id": "q_0168",
@@ -3654,7 +3640,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"ローム\",\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 4.92
+    "time_seconds": 6.05
   },
   {
     "id": "q_0169",
@@ -3670,7 +3656,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"小腸\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 2.99
+    "time_seconds": 3.42
   },
   {
     "id": "q_0170",
@@ -3695,7 +3681,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": 12513,\n  \"evidence_pages\": [1, 9]\n}",
-    "time_seconds": 5.75
+    "time_seconds": 7.02
   },
   {
     "id": "q_0171",
@@ -3720,7 +3706,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 1.6,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 5.27
+    "time_seconds": 6.29
   },
   {
     "id": "q_0172",
@@ -3745,7 +3731,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 99.0,\n  \"evidence_pages\": [5, 6]\n}",
-    "time_seconds": 5.11
+    "time_seconds": 6.64
   },
   {
     "id": "q_0173",
@@ -3769,7 +3755,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"直轄工事費\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 4.96
+    "time_seconds": 5.7
   },
   {
     "id": "q_0174",
@@ -3794,7 +3780,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": [\"処理場運転費\", \"その他費用\"],\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 5.15
+    "time_seconds": 5.91
   },
   {
     "id": "q_0175",
@@ -3819,7 +3805,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": \"家屋\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.31
+    "time_seconds": 5.53
   },
   {
     "id": "q_0176",
@@ -3844,7 +3830,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 50,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 9.07
+    "time_seconds": 13.16
   },
   {
     "id": "q_0177",
@@ -3873,7 +3859,7 @@
       46
     ],
     "raw_model_output": "{\n  \"answer\": \"英語\",\n  \"evidence_pages\": [9, 14, 16, 28, 29, 46]\n}",
-    "time_seconds": 6.88
+    "time_seconds": 8.65
   },
   {
     "id": "q_0178",
@@ -3898,7 +3884,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"P\",\n  \"evidence_pages\": [8, 9]\n}",
-    "time_seconds": 6.23
+    "time_seconds": 7.23
   },
   {
     "id": "q_0179",
@@ -3927,7 +3913,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 2, 8, 10, 12, 22]\n}",
-    "time_seconds": 9.18
+    "time_seconds": 10.01
   },
   {
     "id": "q_0180",
@@ -3952,7 +3938,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"Donation\",\n    \"Insurance2\",\n    \"Govt\"\n  ],\n  \"evidence_pages\": [\n    10\n  ]\n}",
-    "time_seconds": 6.04
+    "time_seconds": 6.31
   },
   {
     "id": "q_0181",
@@ -3977,7 +3963,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 173.5,\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 3.62
+    "time_seconds": 4.14
   },
   {
     "id": "q_0182",
@@ -4003,7 +3989,7 @@
       19
     ],
     "raw_model_output": "{\n\"answer\": 0,\n\"evidence_pages\": [7, 18, 19]\n}",
-    "time_seconds": 4.21
+    "time_seconds": 5.03
   },
   {
     "id": "q_0183",
@@ -4028,7 +4014,7 @@
       49
     ],
     "raw_model_output": "{\n  \"answer\": \"福井県\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.17
+    "time_seconds": 5.14
   },
   {
     "id": "q_0184",
@@ -4053,7 +4039,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"筑豊地域\",\n  \"evidence_pages\": [9, 14]\n}",
-    "time_seconds": 5.48
+    "time_seconds": 7.26
   },
   {
     "id": "q_0185",
@@ -4078,7 +4064,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"㈱エフオーアイによる新規上場時の粉飾を伴う公募増資\",\n    \"㈱丸美に係る無届社債券募集\",\n    \"大分在住のデイトレーダーによる見せ玉手法等を用いた相場操縦\"\n  ],\n  \"evidence_pages\": [\n    10,\n    11\n  ]\n}",
-    "time_seconds": 10.15
+    "time_seconds": 10.67
   },
   {
     "id": "q_0186",
@@ -4093,16 +4079,14 @@
       9,
       12,
       13,
-      15,
-      19,
-      22
+      19
     ],
     "predicted_answer": "指導的",
     "predicted_pages": [
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"指導的\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.66
+    "time_seconds": 3.25
   },
   {
     "id": "q_0187",
@@ -4126,7 +4110,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"小島内科小児科医院\",\n    \"熊本県立こころの医療センター\"\n  ],\n  \"evidence_pages\": [\n    9\n  ]\n}",
-    "time_seconds": 9.28
+    "time_seconds": 10.18
   },
   {
     "id": "q_0188",
@@ -4143,7 +4127,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 4.05
+    "time_seconds": 4.88
   },
   {
     "id": "q_0189",
@@ -4168,7 +4152,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": \"不法市民ラジオ\",\n  \"evidence_pages\": [22, 23]\n}",
-    "time_seconds": 3.95
+    "time_seconds": 4.54
   },
   {
     "id": "q_0190",
@@ -4193,7 +4177,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 3.54
+    "time_seconds": 4.1
   },
   {
     "id": "q_0191",
@@ -4218,7 +4202,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": \"名駅通･若宮大通\",\n  \"evidence_pages\": [2, 15]\n}",
-    "time_seconds": 6.14
+    "time_seconds": 7.95
   },
   {
     "id": "q_0192",
@@ -4243,7 +4227,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 159350300000,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 5.38
+    "time_seconds": 6.2
   },
   {
     "id": "q_0193",
@@ -4268,7 +4252,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 35.8,\n  \"evidence_pages\": [11, 12]\n}",
-    "time_seconds": 4.47
+    "time_seconds": 5.56
   },
   {
     "id": "q_0194",
@@ -4292,7 +4276,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 0.13,\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 4.46
+    "time_seconds": 5.68
   },
   {
     "id": "q_0195",
@@ -4317,7 +4301,7 @@
       35
     ],
     "raw_model_output": "{\n  \"answer\": \"732億円\",\n  \"evidence_pages\": [29, 35]\n}",
-    "time_seconds": 10.36
+    "time_seconds": 14.93
   },
   {
     "id": "q_0196",
@@ -4341,7 +4325,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"金融リスク\",\n    \"政治問題\"\n  ],\n  \"evidence_pages\": [\n    5\n  ]\n}",
-    "time_seconds": 5.42
+    "time_seconds": 5.86
   },
   {
     "id": "q_0197",
@@ -4366,7 +4350,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 1035,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.77
+    "time_seconds": 4.72
   },
   {
     "id": "q_0198",
@@ -4391,7 +4375,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\"吹上原遺跡\"],\n  \"evidence_pages\": [6, 7]\n}",
-    "time_seconds": 4.6
+    "time_seconds": 5.77
   },
   {
     "id": "q_0199",
@@ -4416,7 +4400,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"その他\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 3.32
+    "time_seconds": 4.03
   },
   {
     "id": "q_0200",
@@ -4432,7 +4416,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"東京高専\",\n    \"香川高専\",\n    \"長岡高専発スタートアップ「IntegrAI」\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 6.33
+    "time_seconds": 6.76
   },
   {
     "id": "q_0201",
@@ -4457,7 +4441,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"平成25年度\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 4.6
+    "time_seconds": 5.86
   },
   {
     "id": "q_0202",
@@ -4481,7 +4465,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"スポーツ広場名切グランド\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 6.26
+    "time_seconds": 7.22
   },
   {
     "id": "q_0203",
@@ -4506,7 +4490,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 109004,\n  \"evidence_pages\": [15, 16]\n}",
-    "time_seconds": 5.2
+    "time_seconds": 6.6
   },
   {
     "id": "q_0204",
@@ -4531,7 +4515,7 @@
       31
     ],
     "raw_model_output": "{\n  \"answer\": [\"ハンノキ群落\", \"スギ・ヒノキ・サワラ植林\"],\n  \"evidence_pages\": [19]\n}",
-    "time_seconds": 5.35
+    "time_seconds": 6.28
   },
   {
     "id": "q_0205",
@@ -4556,7 +4540,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 4452,\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 4.36
+    "time_seconds": 5.18
   },
   {
     "id": "q_0206",
@@ -4581,7 +4565,7 @@
       41
     ],
     "raw_model_output": "{\n  \"answer\": \"生まれてからずっと\",\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 3.74
+    "time_seconds": 4.45
   },
   {
     "id": "q_0207",
@@ -4592,20 +4576,18 @@
     "num_pages": 20,
     "num_low_content": 17,
     "retrieved_pages": [
-      2,
-      5,
-      8,
-      9,
       14,
       17,
       18
     ],
-    "predicted_answer": "従業員数",
+    "predicted_answer": "0",
     "predicted_pages": [
-      17
+      14,
+      17,
+      18
     ],
-    "raw_model_output": "{\n  \"answer\": \"従業員数\",\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 11.82
+    "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [14, 17, 18]\n}",
+    "time_seconds": 4.82
   },
   {
     "id": "q_0208",
@@ -4630,7 +4612,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"全年齢\",\n  \"evidence_pages\": [1, 14]\n}",
-    "time_seconds": 10.75
+    "time_seconds": 15.97
   },
   {
     "id": "q_0209",
@@ -4659,7 +4641,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"トリクロロ酢酸\",\n  \"evidence_pages\": [1, 2, 4, 5, 7, 9]\n}",
-    "time_seconds": 6.67
+    "time_seconds": 7.45
   },
   {
     "id": "q_0210",
@@ -4684,7 +4666,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"道原浄水場\",\n  \"evidence_pages\": [3, 9]\n}",
-    "time_seconds": 5.94
+    "time_seconds": 6.82
   },
   {
     "id": "q_0211",
@@ -4708,7 +4690,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"屋仁川\",\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 6.35
+    "time_seconds": 7.2
   },
   {
     "id": "q_0212",
@@ -4733,7 +4715,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 1.1,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 4.5
+    "time_seconds": 5.7
   },
   {
     "id": "q_0213",
@@ -4753,7 +4735,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [1, 3]\n}",
-    "time_seconds": 2.76
+    "time_seconds": 2.97
   },
   {
     "id": "q_0214",
@@ -4778,7 +4760,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": [\"⑤個人情報保護委員会による監視・監督\", \"⑥特定個人情報保護評価\", \"⑦罰則の強化\", \"⑧マイナポータルによる情報提供等記録の確認\"],\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 7.85
+    "time_seconds": 7.79
   },
   {
     "id": "q_0215",
@@ -4803,7 +4785,7 @@
       56
     ],
     "raw_model_output": "{\n  \"answer\": 0.4,\n  \"evidence_pages\": [33, 56]\n}",
-    "time_seconds": 5.21
+    "time_seconds": 5.91
   },
   {
     "id": "q_0216",
@@ -4828,7 +4810,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 3.59,\n  \"evidence_pages\": [7, 17]\n}",
-    "time_seconds": 5.38
+    "time_seconds": 5.84
   },
   {
     "id": "q_0217",
@@ -4853,7 +4835,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"T-3\",\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 3.78
+    "time_seconds": 4.11
   },
   {
     "id": "q_0218",
@@ -4878,7 +4860,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"アメリカ合衆国\", \"中国\", \"台湾\", \"マレーシア\", \"タイ\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 6.04
+    "time_seconds": 7.14
   },
   {
     "id": "q_0219",
@@ -4903,7 +4885,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.75
+    "time_seconds": 9.01
   },
   {
     "id": "q_0220",
@@ -4927,7 +4909,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 100,\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 4.48
+    "time_seconds": 5.18
   },
   {
     "id": "q_0221",
@@ -4952,7 +4934,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"ヘレナ\",\n  \"evidence_pages\": [5, 6]\n}",
-    "time_seconds": 4.97
+    "time_seconds": 6.33
   },
   {
     "id": "q_0222",
@@ -4977,7 +4959,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"2月27日頃\",\n  \"evidence_pages\": [1, 10]\n}",
-    "time_seconds": 7.02
+    "time_seconds": 9.46
   },
   {
     "id": "q_0223",
@@ -5003,7 +4985,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 68,\n  \"evidence_pages\": [4, 9, 10]\n}",
-    "time_seconds": 4.51
+    "time_seconds": 5.53
   },
   {
     "id": "q_0224",
@@ -5028,7 +5010,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"社会論\",\n    \"技術論\"\n  ],\n  \"evidence_pages\": [\n    9\n  ]\n}",
-    "time_seconds": 5.18
+    "time_seconds": 6.04
   },
   {
     "id": "q_0225",
@@ -5045,7 +5027,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"平成29年3月 豊島から直島への廃棄物等の搬出が完了\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 4.92
+    "time_seconds": 5.38
   },
   {
     "id": "q_0226",
@@ -5070,7 +5052,7 @@
       20
     ],
     "raw_model_output": "{\n  \"answer\": [\"じんのすけさん\", \"坂上 裕子 さん\", \"清水 孝宏 さん\"],\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 7.15
+    "time_seconds": 8.77
   },
   {
     "id": "q_0227",
@@ -5095,7 +5077,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 18.0,\n  \"evidence_pages\": [1, 7]\n}",
-    "time_seconds": 4.41
+    "time_seconds": 5.54
   },
   {
     "id": "q_0228",
@@ -5120,7 +5102,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 1.4,\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 4.97
+    "time_seconds": 5.49
   },
   {
     "id": "q_0229",
@@ -5134,7 +5116,7 @@
     "predicted_answer": "['0']",
     "predicted_pages": [],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": []\n}",
-    "time_seconds": 6.26
+    "time_seconds": 8.56
   },
   {
     "id": "q_0230",
@@ -5150,7 +5132,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\"まちの改善\", \"健康づくり\"],\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 8.95
+    "time_seconds": 11.18
   },
   {
     "id": "q_0231",
@@ -5180,7 +5162,7 @@
       31
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [4, 14, 15, 17, 21, 22, 31]\n}",
-    "time_seconds": 7.47
+    "time_seconds": 8.17
   },
   {
     "id": "q_0232",
@@ -5196,7 +5178,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"こどもの日\",\n    \"海の日\",\n    \"山の日\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 6.01
+    "time_seconds": 6.81
   },
   {
     "id": "q_0233",
@@ -5221,7 +5203,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"FCバス\",\n  \"evidence_pages\": [2, 8]\n}",
-    "time_seconds": 4.37
+    "time_seconds": 5.31
   },
   {
     "id": "q_0234",
@@ -5232,23 +5214,14 @@
     "num_pages": 17,
     "num_low_content": 14,
     "retrieved_pages": [
-      2,
       9,
-      13,
       14,
-      15,
-      16,
-      17
+      16
     ],
-    "predicted_answer": "['レイヤ切替', '計測ツール', '目的地（フラグ）の設定']",
-    "predicted_pages": [
-      2,
-      13,
-      15,
-      17
-    ],
-    "raw_model_output": "{\n  \"answer\": [\n    \"レイヤ切替\",\n    \"計測ツール\",\n    \"目的地（フラグ）の設定\"\n  ],\n  \"evidence_pages\": [\n    2,\n    13,\n    15,\n    17\n  ]\n}",
-    "time_seconds": 8.86
+    "predicted_answer": "['0']",
+    "predicted_pages": [],
+    "raw_model_output": "{\n\"answer\": [\"0\"],\n\"evidence_pages\": []\n}",
+    "time_seconds": 2.18
   },
   {
     "id": "q_0235",
@@ -5273,7 +5246,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 4.16
+    "time_seconds": 5.24
   },
   {
     "id": "q_0236",
@@ -5299,7 +5272,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": \"パンデミック期\",\n  \"evidence_pages\": [5, 16, 27]\n}",
-    "time_seconds": 4.43
+    "time_seconds": 5.09
   },
   {
     "id": "q_0237",
@@ -5324,7 +5297,7 @@
       20
     ],
     "raw_model_output": "{\n  \"answer\": \"PLA/酸化PLA15/酸化セルロース\",\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 5.01
+    "time_seconds": 5.64
   },
   {
     "id": "q_0238",
@@ -5338,17 +5311,14 @@
       2,
       3,
       4,
-      5,
-      6,
-      8,
-      15
+      5
     ],
     "predicted_answer": "釜石市",
     "predicted_pages": [
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"釜石市\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.99
+    "time_seconds": 3.26
   },
   {
     "id": "q_0239",
@@ -5373,7 +5343,7 @@
       19
     ],
     "raw_model_output": "{\n  \"answer\": \"アデン湾\",\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 6.57
+    "time_seconds": 8.77
   },
   {
     "id": "q_0240",
@@ -5384,21 +5354,18 @@
     "num_pages": 20,
     "num_low_content": 17,
     "retrieved_pages": [
-      2,
-      8,
-      11,
-      12,
       14,
       17,
       18
     ],
-    "predicted_answer": "石油",
+    "predicted_answer": "0",
     "predicted_pages": [
-      3,
-      4
+      14,
+      17,
+      18
     ],
-    "raw_model_output": "{\n  \"answer\": [\"石油\", \"輸送機械\"],\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 6.97
+    "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [14, 17, 18]\n}",
+    "time_seconds": 4.82
   },
   {
     "id": "q_0241",
@@ -5424,7 +5391,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": 1.5,\n  \"evidence_pages\": [9, 22, 23]\n}",
-    "time_seconds": 4.51
+    "time_seconds": 5.14
   },
   {
     "id": "q_0242",
@@ -5441,7 +5408,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 6.76
+    "time_seconds": 9.6
   },
   {
     "id": "q_0243",
@@ -5466,7 +5433,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"情報取得者\",\n    \"配信事業者\"\n  ],\n  \"evidence_pages\": [\n    7\n  ]\n}",
-    "time_seconds": 4.71
+    "time_seconds": 5.27
   },
   {
     "id": "q_0244",
@@ -5491,7 +5458,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": \"列(1)\",\n  \"evidence_pages\": [18]\n}",
-    "time_seconds": 3.78
+    "time_seconds": 4.75
   },
   {
     "id": "q_0245",
@@ -5516,7 +5483,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"30～34歳\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.06
+    "time_seconds": 6.66
   },
   {
     "id": "q_0246",
@@ -5541,7 +5508,7 @@
       6
     ],
     "raw_model_output": "{\n\"answer\": 19558,\n\"evidence_pages\": [6]\n}",
-    "time_seconds": 3.37
+    "time_seconds": 3.96
   },
   {
     "id": "q_0247",
@@ -5566,7 +5533,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"台湾\",\n  \"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 4.58
+    "time_seconds": 5.92
   },
   {
     "id": "q_0248",
@@ -5591,7 +5558,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"校務機能\",\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 4.2
+    "time_seconds": 5.18
   },
   {
     "id": "q_0249",
@@ -5616,7 +5583,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 2.6,\n  \"evidence_pages\": [9, 12]\n}",
-    "time_seconds": 4.58
+    "time_seconds": 4.97
   },
   {
     "id": "q_0250",
@@ -5632,7 +5599,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"甲津畑\",\n    \"甲津畑口\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 4.94
+    "time_seconds": 5.02
   },
   {
     "id": "q_0251",
@@ -5649,7 +5616,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 14,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.75
+    "time_seconds": 4.21
   },
   {
     "id": "q_0252",
@@ -5665,7 +5632,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"肝炎 インターフェロンフリー治療\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.92
+    "time_seconds": 3.13
   },
   {
     "id": "q_0253",
@@ -5681,7 +5648,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.62
+    "time_seconds": 3.9
   },
   {
     "id": "q_0254",
@@ -5706,7 +5673,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [3, 22]\n}",
-    "time_seconds": 5.56
+    "time_seconds": 6.89
   },
   {
     "id": "q_0255",
@@ -5731,7 +5698,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 99.7,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 4.29
+    "time_seconds": 5.5
   },
   {
     "id": "q_0256",
@@ -5756,7 +5723,7 @@
       69
     ],
     "raw_model_output": "{\n  \"answer\": \"⑤ネットワーク及び情報システムで取り扱う情報\",\n  \"evidence_pages\": [31, 69]\n}",
-    "time_seconds": 5.57
+    "time_seconds": 6.4
   },
   {
     "id": "q_0257",
@@ -5781,7 +5748,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"市指定\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 6.03
+    "time_seconds": 8.27
   },
   {
     "id": "q_0258",
@@ -5806,7 +5773,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 3325,\n  \"evidence_pages\": [1, 15]\n}",
-    "time_seconds": 7.4
+    "time_seconds": 9.71
   },
   {
     "id": "q_0259",
@@ -5835,7 +5802,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"設計者\", \"施工者\"],\n  \"evidence_pages\": [2, 3, 4, 5, 7, 8]\n}",
-    "time_seconds": 7.26
+    "time_seconds": 8.06
   },
   {
     "id": "q_0260",
@@ -5860,7 +5827,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"岩村の瀧門寺\",\n  \"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 4.78
+    "time_seconds": 5.34
   },
   {
     "id": "q_0261",
@@ -5877,7 +5844,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"IDとパスワード\",\n  \"evidence_pages\": [2, 3]\n}",
-    "time_seconds": 6.56
+    "time_seconds": 9.19
   },
   {
     "id": "q_0262",
@@ -5901,7 +5868,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"20ミリ機関砲\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.07
+    "time_seconds": 5.95
   },
   {
     "id": "q_0263",
@@ -5926,7 +5893,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"東北\",\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 3.49
+    "time_seconds": 4.12
   },
   {
     "id": "q_0264",
@@ -5950,7 +5917,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 3.0
+    "time_seconds": 3.47
   },
   {
     "id": "q_0265",
@@ -5975,7 +5942,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 42.5,\n  \"evidence_pages\": [2, 3]\n}",
-    "time_seconds": 4.55
+    "time_seconds": 5.9
   },
   {
     "id": "q_0266",
@@ -5991,7 +5958,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 0.01,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 2.97
+    "time_seconds": 3.4
   },
   {
     "id": "q_0267",
@@ -6016,7 +5983,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 2,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 3.85
+    "time_seconds": 4.68
   },
   {
     "id": "q_0268",
@@ -6043,7 +6010,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\"人物\", \"場所\"],\n  \"evidence_pages\": [4, 5, 6, 7]\n}",
-    "time_seconds": 5.89
+    "time_seconds": 7.5
   },
   {
     "id": "q_0269",
@@ -6068,7 +6035,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 18163391,\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 5.75
+    "time_seconds": 7.58
   },
   {
     "id": "q_0270",
@@ -6093,7 +6060,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": 0.0,\n  \"evidence_pages\": [8, 22]\n}",
-    "time_seconds": 3.96
+    "time_seconds": 4.39
   },
   {
     "id": "q_0271",
@@ -6118,7 +6085,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"熱意評価\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 3.64
+    "time_seconds": 4.54
   },
   {
     "id": "q_0272",
@@ -6134,7 +6101,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"武蔵野大学\", \"北野中学校\", \"北野小学校\", \"北野体育館\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.96
+    "time_seconds": 5.26
   },
   {
     "id": "q_0273",
@@ -6159,7 +6126,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.36
+    "time_seconds": 8.76
   },
   {
     "id": "q_0274",
@@ -6176,7 +6143,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 7026,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.45
+    "time_seconds": 3.92
   },
   {
     "id": "q_0275",
@@ -6201,7 +6168,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 21664,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 4.84
+    "time_seconds": 5.96
   },
   {
     "id": "q_0276",
@@ -6231,7 +6198,7 @@
       42
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [4, 19, 21, 25, 33, 41, 42]\n}",
-    "time_seconds": 5.42
+    "time_seconds": 5.84
   },
   {
     "id": "q_0277",
@@ -6257,7 +6224,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"③融資を担当する職員から持ちかけられた場合\",\n  \"evidence_pages\": [10, 11, 12]\n}",
-    "time_seconds": 5.55
+    "time_seconds": 6.14
   },
   {
     "id": "q_0278",
@@ -6282,7 +6249,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": \"ローム\",\n  \"evidence_pages\": [13, 15]\n}",
-    "time_seconds": 5.0
+    "time_seconds": 5.98
   },
   {
     "id": "q_0279",
@@ -6307,7 +6274,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"19条\"\n  ],\n  \"evidence_pages\": [\n    6\n  ]\n}",
-    "time_seconds": 4.51
+    "time_seconds": 5.06
   },
   {
     "id": "q_0280",
@@ -6332,7 +6299,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"1/4\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 4.84
+    "time_seconds": 6.27
   },
   {
     "id": "q_0281",
@@ -6357,7 +6324,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"土砂災害ハザードマップ\",\n  \"evidence_pages\": [6, 10]\n}",
-    "time_seconds": 6.78
+    "time_seconds": 8.81
   },
   {
     "id": "q_0282",
@@ -6383,7 +6350,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"新山遺跡\",\n  \"evidence_pages\": [4, 6, 7]\n}",
-    "time_seconds": 4.84
+    "time_seconds": 5.98
   },
   {
     "id": "q_0283",
@@ -6408,7 +6375,7 @@
       16
     ],
     "raw_model_output": "{\n\"answer\": 0,\n\"evidence_pages\": [9, 16]\n}",
-    "time_seconds": 3.41
+    "time_seconds": 4.04
   },
   {
     "id": "q_0284",
@@ -6435,7 +6402,7 @@
       46
     ],
     "raw_model_output": "{\n  \"answer\": \"中２英, 11.9\",\n  \"evidence_pages\": [8, 14, 16, 46]\n}",
-    "time_seconds": 6.86
+    "time_seconds": 8.53
   },
   {
     "id": "q_0285",
@@ -6460,7 +6427,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"スポーツ団体\",\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.07
+    "time_seconds": 5.18
   },
   {
     "id": "q_0286",
@@ -6485,7 +6452,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 0.47,\n  \"evidence_pages\": [14, 15]\n}",
-    "time_seconds": 4.81
+    "time_seconds": 6.11
   },
   {
     "id": "q_0287",
@@ -6510,7 +6477,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"新規又は変更の別\",\n    \"個人又は法人等の別\"\n  ],\n  \"evidence_pages\": [\n    23,\n    25\n  ]\n}",
-    "time_seconds": 5.84
+    "time_seconds": 6.19
   },
   {
     "id": "q_0288",
@@ -6535,7 +6502,7 @@
       42
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 3.89
+    "time_seconds": 4.99
   },
   {
     "id": "q_0289",
@@ -6564,7 +6531,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [2, 5, 7, 9, 13, 17]\n}",
-    "time_seconds": 7.18
+    "time_seconds": 8.13
   },
   {
     "id": "q_0290",
@@ -6589,7 +6556,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 3.61
+    "time_seconds": 4.23
   },
   {
     "id": "q_0291",
@@ -6614,7 +6581,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"マルコガタノゲンゴロウ\",\n  \"evidence_pages\": [8, 13]\n}",
-    "time_seconds": 6.64
+    "time_seconds": 8.45
   },
   {
     "id": "q_0292",
@@ -6639,7 +6606,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": \"NPO法人よりづかちょいスポ倶楽部\",\n  \"evidence_pages\": [10, 18]\n}",
-    "time_seconds": 5.51
+    "time_seconds": 6.35
   },
   {
     "id": "q_0293",
@@ -6664,7 +6631,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": \"小田原市\",\n  \"evidence_pages\": [23, 25]\n}",
-    "time_seconds": 4.76
+    "time_seconds": 5.17
   },
   {
     "id": "q_0294",
@@ -6689,7 +6656,7 @@
       45
     ],
     "raw_model_output": "{\n  \"answer\": \"【[参考資料]２】諸外国の支出と税収の規模は～\",\n  \"evidence_pages\": [26, 45]\n}",
-    "time_seconds": 5.8
+    "time_seconds": 6.65
   },
   {
     "id": "q_0295",
@@ -6714,7 +6681,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 352776,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 4.42
+    "time_seconds": 5.22
   },
   {
     "id": "q_0296",
@@ -6740,7 +6707,7 @@
       15
     ],
     "raw_model_output": "{\n\"answer\": [\"㈱大経\", \"㈱生物化学研究所\"],\n\"evidence_pages\": [7, 9, 15]\n}",
-    "time_seconds": 4.2
+    "time_seconds": 4.77
   },
   {
     "id": "q_0297",
@@ -6756,7 +6723,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 47,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.84
+    "time_seconds": 3.14
   },
   {
     "id": "q_0298",
@@ -6780,7 +6747,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"左\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 5.94
+    "time_seconds": 6.91
   },
   {
     "id": "q_0299",
@@ -6807,7 +6774,7 @@
       26
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"届出書\",\n    \"委任状\"\n  ],\n  \"evidence_pages\": [\n    8,\n    23,\n    24,\n    26\n  ]\n}",
-    "time_seconds": 6.6
+    "time_seconds": 7.11
   },
   {
     "id": "q_0300",
@@ -6837,7 +6804,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"ローム\",\n  \"evidence_pages\": [3, 4, 5, 6, 7, 15, 17]\n}",
-    "time_seconds": 5.97
+    "time_seconds": 7.0
   },
   {
     "id": "q_0301",
@@ -6853,7 +6820,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"内浦湾\",\n    \"黄色\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 4.67
+    "time_seconds": 5.2
   },
   {
     "id": "q_0302",
@@ -6874,7 +6841,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\"法定代理人\"],\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 2.61
+    "time_seconds": 2.95
   },
   {
     "id": "q_0303",
@@ -6890,7 +6857,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 15,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.48
+    "time_seconds": 3.8
   },
   {
     "id": "q_0304",
@@ -6906,7 +6873,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"高田橋廻り\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.53
+    "time_seconds": 4.19
   },
   {
     "id": "q_0305",
@@ -6922,7 +6889,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"3月28日の朝8時30分\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.53
+    "time_seconds": 5.45
   },
   {
     "id": "q_0306",
@@ -6947,7 +6914,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": 1.02,\n  \"evidence_pages\": [1, 22]\n}",
-    "time_seconds": 6.27
+    "time_seconds": 7.2
   },
   {
     "id": "q_0307",
@@ -6972,7 +6939,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 30,\n  \"evidence_pages\": [5, 21]\n}",
-    "time_seconds": 4.54
+    "time_seconds": 5.64
   },
   {
     "id": "q_0308",
@@ -6996,7 +6963,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": 2150,\n  \"evidence_pages\": [18]\n}",
-    "time_seconds": 10.52
+    "time_seconds": 11.52
   },
   {
     "id": "q_0309",
@@ -7020,7 +6987,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"トマト\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 5.5
+    "time_seconds": 6.38
   },
   {
     "id": "q_0310",
@@ -7044,7 +7011,7 @@
       37
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"庄右衛門\",\n    \"伊豆山境造\",\n    \"福浦村\",\n    \"利右衛門\",\n    \"太郎兵衛\"\n  ],\n  \"evidence_pages\": [\n    37\n  ]\n}",
-    "time_seconds": 8.28
+    "time_seconds": 8.87
   },
   {
     "id": "q_0311",
@@ -7069,7 +7036,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 17.0,\n  \"evidence_pages\": [3, 8]\n}",
-    "time_seconds": 6.33
+    "time_seconds": 8.49
   },
   {
     "id": "q_0312",
@@ -7094,7 +7061,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"自社の既存のマーケティング手法とは大幅に異なり、かつこれまでに利用したことのなかった新しいマーケティング・コンセプトやマーケティング戦略の導入\",\n  \"evidence_pages\": [1, 5]\n}",
-    "time_seconds": 7.07
+    "time_seconds": 8.28
   },
   {
     "id": "q_0313",
@@ -7119,7 +7086,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"経常収支（IMF予測値）\",\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 4.69
+    "time_seconds": 5.32
   },
   {
     "id": "q_0314",
@@ -7144,7 +7111,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"CPA (自宅での死亡)\",\n    \"急性脳症\"\n  ],\n  \"evidence_pages\": [\n    18\n  ]\n}",
-    "time_seconds": 5.95
+    "time_seconds": 6.63
   },
   {
     "id": "q_0315",
@@ -7169,7 +7136,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": 2.5,\n  \"evidence_pages\": [24]\n}",
-    "time_seconds": 3.75
+    "time_seconds": 4.35
   },
   {
     "id": "q_0316",
@@ -7194,7 +7161,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"活力あるまち\",\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 4.4
+    "time_seconds": 5.58
   },
   {
     "id": "q_0317",
@@ -7216,7 +7183,7 @@
     "predicted_answer": "0",
     "predicted_pages": [],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": []\n}",
-    "time_seconds": 8.66
+    "time_seconds": 12.79
   },
   {
     "id": "q_0318",
@@ -7229,20 +7196,17 @@
     "retrieved_pages": [
       8,
       9,
-      10,
       12,
       13,
-      15,
       19
     ],
     "predicted_answer": "いきがい就労領域",
     "predicted_pages": [
       8,
-      9,
-      10
+      9
     ],
-    "raw_model_output": "{\n  \"answer\": \"いきがい就労領域\",\n  \"evidence_pages\": [8, 9, 10]\n}",
-    "time_seconds": 4.41
+    "raw_model_output": "{\n  \"answer\": \"いきがい就労領域\",\n  \"evidence_pages\": [8, 9]\n}",
+    "time_seconds": 3.68
   },
   {
     "id": "q_0319",
@@ -7267,7 +7231,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 52,\n  \"evidence_pages\": [1, 5]\n}",
-    "time_seconds": 6.01
+    "time_seconds": 7.93
   },
   {
     "id": "q_0320",
@@ -7292,7 +7256,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"文化会館\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 7.03
+    "time_seconds": 9.91
   },
   {
     "id": "q_0321",
@@ -7317,7 +7281,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"外袋右辺中央部と袋本体の持ち手の片側部分\",\n  \"evidence_pages\": [4, 13]\n}",
-    "time_seconds": 5.31
+    "time_seconds": 5.97
   },
   {
     "id": "q_0322",
@@ -7337,7 +7301,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 3]\n}",
-    "time_seconds": 2.69
+    "time_seconds": 2.92
   },
   {
     "id": "q_0323",
@@ -7362,7 +7326,7 @@
       20
     ],
     "raw_model_output": "{\n  \"answer\": 3.0,\n  \"evidence_pages\": [20]\n}",
-    "time_seconds": 4.47
+    "time_seconds": 5.78
   },
   {
     "id": "q_0324",
@@ -7376,18 +7340,12 @@
       2,
       3,
       4,
-      5,
-      8,
-      9,
-      11
+      5
     ],
-    "predicted_answer": "0.04",
-    "predicted_pages": [
-      8,
-      9
-    ],
-    "raw_model_output": "{\n  \"answer\": 0.04,\n  \"evidence_pages\": [8, 9]\n}",
-    "time_seconds": 4.97
+    "predicted_answer": "0",
+    "predicted_pages": [],
+    "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": []\n}",
+    "time_seconds": 2.84
   },
   {
     "id": "q_0325",
@@ -7413,7 +7371,7 @@
       34
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [9, 33, 34]\n}",
-    "time_seconds": 4.28
+    "time_seconds": 4.67
   },
   {
     "id": "q_0326",
@@ -7437,7 +7395,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"サクラ\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 3.89
+    "time_seconds": 4.45
   },
   {
     "id": "q_0327",
@@ -7448,21 +7406,16 @@
     "num_pages": 17,
     "num_low_content": 14,
     "retrieved_pages": [
-      5,
-      6,
-      7,
       9,
-      11,
       14,
       16
     ],
-    "predicted_answer": "10",
+    "predicted_answer": "0",
     "predicted_pages": [
-      7,
       9
     ],
-    "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [7, 9]\n}",
-    "time_seconds": 4.16
+    "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [9]\n}",
+    "time_seconds": 2.61
   },
   {
     "id": "q_0328",
@@ -7487,7 +7440,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"戸籍\",\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 4.27
+    "time_seconds": 5.39
   },
   {
     "id": "q_0329",
@@ -7512,7 +7465,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"肺炎\",\n    \"ARDS\"\n  ],\n  \"evidence_pages\": [\n    14,\n    18\n  ]\n}",
-    "time_seconds": 5.3
+    "time_seconds": 5.95
   },
   {
     "id": "q_0330",
@@ -7537,7 +7490,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": 15,\n  \"evidence_pages\": [11, 18]\n}",
-    "time_seconds": 4.06
+    "time_seconds": 4.68
   },
   {
     "id": "q_0331",
@@ -7562,7 +7515,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"八王子・立川・多摩\",\n  \"evidence_pages\": [8, 9]\n}",
-    "time_seconds": 5.12
+    "time_seconds": 6.19
   },
   {
     "id": "q_0332",
@@ -7588,7 +7541,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"札幌\", \"小樽\", \"仙台\", \"東京\", \"千葉\", \"横浜\", \"川崎\", \"鎌倉\", \"大阪\", \"京都\", \"神戸\"],\n  \"evidence_pages\": [3, 4, 5]\n}",
-    "time_seconds": 8.61
+    "time_seconds": 9.53
   },
   {
     "id": "q_0333",
@@ -7615,7 +7568,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 3,\n  \"evidence_pages\": [11, 12, 14, 15]\n}",
-    "time_seconds": 4.75
+    "time_seconds": 5.4
   },
   {
     "id": "q_0334",
@@ -7643,7 +7596,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"大迫・庵川線\",\n    \"竹名・中村線\",\n    \"中山・五十鈴線／大池・中山線\",\n    \"本町巡回線\"\n  ],\n  \"evidence_pages\": [\n    1,\n    10,\n    12,\n    14,\n    16\n  ]\n}",
-    "time_seconds": 13.79
+    "time_seconds": 14.77
   },
   {
     "id": "q_0335",
@@ -7668,7 +7621,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"人工資本・分散型\",\n  \"evidence_pages\": [6, 9]\n}",
-    "time_seconds": 4.24
+    "time_seconds": 4.94
   },
   {
     "id": "q_0336",
@@ -7693,7 +7646,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": 209,\n  \"evidence_pages\": [24]\n}",
-    "time_seconds": 3.44
+    "time_seconds": 4.02
   },
   {
     "id": "q_0337",
@@ -7718,7 +7671,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 28,\n  \"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 4.91
+    "time_seconds": 6.44
   },
   {
     "id": "q_0338",
@@ -7743,7 +7696,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 100000,\n  \"evidence_pages\": [13, 15]\n}",
-    "time_seconds": 7.22
+    "time_seconds": 8.15
   },
   {
     "id": "q_0339",
@@ -7768,7 +7721,7 @@
       33
     ],
     "raw_model_output": "{\n  \"answer\": \"斜線\",\n  \"evidence_pages\": [32, 33]\n}",
-    "time_seconds": 4.28
+    "time_seconds": 5.21
   },
   {
     "id": "q_0340",
@@ -7784,7 +7737,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.46
+    "time_seconds": 3.77
   },
   {
     "id": "q_0341",
@@ -7809,7 +7762,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"人工仔魚\",\n  \"evidence_pages\": [10, 12]\n}",
-    "time_seconds": 4.43
+    "time_seconds": 5.45
   },
   {
     "id": "q_0342",
@@ -7834,7 +7787,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"食用油\",\n  \"evidence_pages\": [6, 8]\n}",
-    "time_seconds": 3.44
+    "time_seconds": 4.01
   },
   {
     "id": "q_0343",
@@ -7859,7 +7812,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": \"廃棄物対策課\",\n  \"evidence_pages\": [15, 24]\n}",
-    "time_seconds": 4.57
+    "time_seconds": 5.54
   },
   {
     "id": "q_0344",
@@ -7885,7 +7838,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": \"オレンジ色\",\n  \"evidence_pages\": [12, 13, 14]\n}",
-    "time_seconds": 4.92
+    "time_seconds": 5.37
   },
   {
     "id": "q_0345",
@@ -7907,7 +7860,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [1, 2, 3, 4, 5, 6, 7]\n}",
-    "time_seconds": 7.85
+    "time_seconds": 10.41
   },
   {
     "id": "q_0346",
@@ -7932,7 +7885,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": \"基盤的な研究費\",\n  \"evidence_pages\": [26]\n}",
-    "time_seconds": 4.6
+    "time_seconds": 5.77
   },
   {
     "id": "q_0347",
@@ -7956,7 +7909,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"水前寺こころのクリニック\",\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 6.83
+    "time_seconds": 8.07
   },
   {
     "id": "q_0348",
@@ -7972,7 +7925,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 4,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.53
+    "time_seconds": 9.39
   },
   {
     "id": "q_0349",
@@ -7997,7 +7950,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": [\"エジプト\"],\n  \"evidence_pages\": [21, 23]\n}",
-    "time_seconds": 4.61
+    "time_seconds": 5.57
   },
   {
     "id": "q_0350",
@@ -8022,7 +7975,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"スケジュール管理機能\",\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 4.47
+    "time_seconds": 5.77
   },
   {
     "id": "q_0351",
@@ -8047,7 +8000,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": [\"[3, 5, 7, 9]\"],\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 4.08
+    "time_seconds": 4.88
   },
   {
     "id": "q_0352",
@@ -8072,7 +8025,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"第75号\", \"第101号\"],\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 7.02
+    "time_seconds": 9.42
   },
   {
     "id": "q_0353",
@@ -8097,7 +8050,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [6, 9]\n}",
-    "time_seconds": 5.04
+    "time_seconds": 5.97
   },
   {
     "id": "q_0354",
@@ -8122,7 +8075,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"香川県三木町\",\n    \"香川県多度津町\"\n  ],\n  \"evidence_pages\": [\n    4,\n    5\n  ]\n}",
-    "time_seconds": 7.75
+    "time_seconds": 8.7
   },
   {
     "id": "q_0355",
@@ -8149,7 +8102,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"卵\",\n  \"evidence_pages\": [3, 4, 5, 7]\n}",
-    "time_seconds": 4.01
+    "time_seconds": 4.61
   },
   {
     "id": "q_0356",
@@ -8174,7 +8127,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 1.5,\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 4.82
+    "time_seconds": 6.55
   },
   {
     "id": "q_0357",
@@ -8199,7 +8152,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 190,\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 3.46
+    "time_seconds": 4.07
   },
   {
     "id": "q_0358",
@@ -8224,7 +8177,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 2.04,\n  \"evidence_pages\": [15]\n}",
-    "time_seconds": 5.36
+    "time_seconds": 7.23
   },
   {
     "id": "q_0359",
@@ -8249,7 +8202,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 11248,\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 3.81
+    "time_seconds": 4.58
   },
   {
     "id": "q_0360",
@@ -8273,7 +8226,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"▲334億円\",\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 5.11
+    "time_seconds": 5.99
   },
   {
     "id": "q_0361",
@@ -8290,7 +8243,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"火曜日\",\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.9
+    "time_seconds": 4.86
   },
   {
     "id": "q_0362",
@@ -8315,7 +8268,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 1.6,\n  \"evidence_pages\": [19, 21]\n}",
-    "time_seconds": 3.41
+    "time_seconds": 3.74
   },
   {
     "id": "q_0363",
@@ -8340,7 +8293,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"都市政策部住宅管理課 230\",\n  \"evidence_pages\": [9, 12]\n}",
-    "time_seconds": 5.97
+    "time_seconds": 7.46
   },
   {
     "id": "q_0364",
@@ -8365,7 +8318,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"増加\",\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 4.36
+    "time_seconds": 5.46
   },
   {
     "id": "q_0365",
@@ -8394,7 +8347,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 2, 7, 8, 11, 12]\n}",
-    "time_seconds": 7.1
+    "time_seconds": 7.59
   },
   {
     "id": "q_0366",
@@ -8419,7 +8372,7 @@
       38
     ],
     "raw_model_output": "{\n  \"answer\": \"松島湾（櫃ケ浦）\",\n  \"evidence_pages\": [35, 38]\n}",
-    "time_seconds": 4.95
+    "time_seconds": 5.72
   },
   {
     "id": "q_0367",
@@ -8443,7 +8396,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": \"郵貯特会\",\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 4.52
+    "time_seconds": 5.73
   },
   {
     "id": "q_0368",
@@ -8467,7 +8420,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 2.98
+    "time_seconds": 3.32
   },
   {
     "id": "q_0369",
@@ -8492,7 +8445,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"ヒメコウゾ\",\n  \"evidence_pages\": [9, 12]\n}",
-    "time_seconds": 4.88
+    "time_seconds": 6.0
   },
   {
     "id": "q_0370",
@@ -8517,7 +8470,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"過剰な不均衡\",\n  \"evidence_pages\": [5, 13]\n}",
-    "time_seconds": 4.95
+    "time_seconds": 5.7
   },
   {
     "id": "q_0371",
@@ -8543,7 +8496,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": [\"マルチサイトデータ\", \"センシティブ情報\", \"子供のデータ\"],\n  \"evidence_pages\": [16, 17, 18]\n}",
-    "time_seconds": 5.26
+    "time_seconds": 5.61
   },
   {
     "id": "q_0372",
@@ -8568,7 +8521,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": 79.2,\n  \"evidence_pages\": [10, 27]\n}",
-    "time_seconds": 4.05
+    "time_seconds": 4.66
   },
   {
     "id": "q_0373",
@@ -8594,7 +8547,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"社会論\",\n  \"evidence_pages\": [4, 9, 10]\n}",
-    "time_seconds": 4.18
+    "time_seconds": 4.99
   },
   {
     "id": "q_0374",
@@ -8618,7 +8571,7 @@
       20
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"宿泊型\",\n    \"日帰り型（相談と日課タイプ）\",\n    \"日帰り型（相談タイプ）\"\n  ],\n  \"evidence_pages\": [\n    20\n  ]\n}",
-    "time_seconds": 9.17
+    "time_seconds": 10.05
   },
   {
     "id": "q_0375",
@@ -8643,7 +8596,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [9, 14]\n}",
-    "time_seconds": 4.49
+    "time_seconds": 5.74
   },
   {
     "id": "q_0376",
@@ -8672,7 +8625,7 @@
       32
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [2, 8, 27, 30, 31, 32]\n}",
-    "time_seconds": 8.18
+    "time_seconds": 9.02
   },
   {
     "id": "q_0377",
@@ -8697,7 +8650,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 3.73
+    "time_seconds": 4.58
   },
   {
     "id": "q_0378",
@@ -8722,7 +8675,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [3, 8]\n}",
-    "time_seconds": 3.78
+    "time_seconds": 4.47
   },
   {
     "id": "q_0379",
@@ -8738,7 +8691,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"猫\",\n    \"犬\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 4.39
+    "time_seconds": 4.68
   },
   {
     "id": "q_0380",
@@ -8755,7 +8708,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"原野大池はん濫\",\n    \"土砂災害\"\n  ],\n  \"evidence_pages\": [\n    1,\n    2\n  ]\n}",
-    "time_seconds": 5.19
+    "time_seconds": 5.53
   },
   {
     "id": "q_0381",
@@ -8780,7 +8733,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"3分\",\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 4.42
+    "time_seconds": 5.09
   },
   {
     "id": "q_0382",
@@ -8804,7 +8757,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 27,\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 3.93
+    "time_seconds": 4.49
   },
   {
     "id": "q_0383",
@@ -8829,7 +8782,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"ぼうさいの丘公園北側駐車場\",\n    \"市役所西側駐車場\"\n  ],\n  \"evidence_pages\": [\n    6\n  ]\n}",
-    "time_seconds": 9.59
+    "time_seconds": 12.64
   },
   {
     "id": "q_0384",
@@ -8854,7 +8807,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"冷凍食品におけるモーダルシフトの取り組み\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 4.65
+    "time_seconds": 5.66
   },
   {
     "id": "q_0385",
@@ -8879,7 +8832,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"カフェ サニーブーニー\",\n    \"いぬねこcafé Lua（るあ）\"\n  ],\n  \"evidence_pages\": [\n    15,\n    17\n  ]\n}",
-    "time_seconds": 13.32
+    "time_seconds": 14.55
   },
   {
     "id": "q_0386",
@@ -8904,7 +8857,7 @@
       40
     ],
     "raw_model_output": "{\n  \"answer\": \"５年生（中学２年生）までに受けた授業で，自分の考えを発表する機会では，自分の考えがうまく伝わるよう，資料や文章，話の組立てなどを工夫して発表していたと思いますか\",\n  \"evidence_pages\": [39, 40]\n}",
-    "time_seconds": 8.25
+    "time_seconds": 9.14
   },
   {
     "id": "q_0387",
@@ -8929,7 +8882,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"直方市個人情報の保護に関する法律施行条例の制定について\",\n    \"直方市情報公開・個人情報保護審査会設置条例の一部を改正する条例について\"\n  ],\n  \"evidence_pages\": [\n    2,\n    3\n  ]\n}",
-    "time_seconds": 10.99
+    "time_seconds": 13.46
   },
   {
     "id": "q_0388",
@@ -8953,7 +8906,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"B型肝炎\",\n    \"集団予防接種\"\n  ],\n  \"evidence_pages\": [\n    17\n  ]\n}",
-    "time_seconds": 6.72
+    "time_seconds": 7.72
   },
   {
     "id": "q_0389",
@@ -8978,7 +8931,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [24, 25]\n}",
-    "time_seconds": 3.71
+    "time_seconds": 4.37
   },
   {
     "id": "q_0390",
@@ -9005,7 +8958,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": \"災害に強いまちづくりを進め、安心な暮らしを築きます\",\n  \"evidence_pages\": [5, 7, 8, 11]\n}",
-    "time_seconds": 5.97
+    "time_seconds": 7.05
   },
   {
     "id": "q_0391",
@@ -9029,7 +8982,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"道路事業資金貸付金等\",\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 4.75
+    "time_seconds": 5.61
   },
   {
     "id": "q_0392",
@@ -9054,7 +9007,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\"不知火\", \"橘\", \"新地\", \"三川\"],\n  \"evidence_pages\": [9, 11]\n}",
-    "time_seconds": 4.96
+    "time_seconds": 5.78
   },
   {
     "id": "q_0393",
@@ -9070,7 +9023,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"浮き\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 3.04
+    "time_seconds": 3.5
   },
   {
     "id": "q_0394",
@@ -9092,7 +9045,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"相手方の電子計算機と行政機関の電子計算機との間で、電磁的記録の送受信及び記録を行うことができること\",\n  \"evidence_pages\": [1, 2, 3, 4, 5, 6, 7]\n}",
-    "time_seconds": 10.5
+    "time_seconds": 12.71
   },
   {
     "id": "q_0395",
@@ -9117,7 +9070,7 @@
       35
     ],
     "raw_model_output": "{\n  \"answer\": \"近い基底\",\n  \"evidence_pages\": [16, 35]\n}",
-    "time_seconds": 4.13
+    "time_seconds": 4.71
   },
   {
     "id": "q_0396",
@@ -9142,7 +9095,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\"熱田区\", \"中区\"],\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.13
+    "time_seconds": 4.91
   },
   {
     "id": "q_0397",
@@ -9161,7 +9114,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"株式会社 松村泰山堂\",\n  \"evidence_pages\": [1, 2, 3, 4]\n}",
-    "time_seconds": 4.23
+    "time_seconds": 4.77
   },
   {
     "id": "q_0398",
@@ -9177,7 +9130,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"お母さん: 産婦人科\",\n    \"赤ちゃん: 小児科\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 6.87
+    "time_seconds": 7.14
   },
   {
     "id": "q_0399",
@@ -9192,16 +9145,14 @@
       9,
       12,
       13,
-      15,
-      19,
-      22
+      19
     ],
     "predicted_answer": "GBER",
     "predicted_pages": [
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"GBER\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.37
+    "time_seconds": 3.03
   },
   {
     "id": "q_0400",
@@ -9218,7 +9169,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"祈り\",\n  \"evidence_pages\": [4, 6]\n}",
-    "time_seconds": 3.98
+    "time_seconds": 4.81
   },
   {
     "id": "q_0401",
@@ -9243,7 +9194,7 @@
       20
     ],
     "raw_model_output": "{\n  \"answer\": \"交通量調査データ\",\n  \"evidence_pages\": [19, 20]\n}",
-    "time_seconds": 4.56
+    "time_seconds": 5.22
   },
   {
     "id": "q_0402",
@@ -9268,7 +9219,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": 5,\n  \"evidence_pages\": [13]\n}",
-    "time_seconds": 4.2
+    "time_seconds": 5.2
   },
   {
     "id": "q_0403",
@@ -9293,7 +9244,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"リゾートホテル\",\n    \"12.7ポイント\"\n  ],\n  \"evidence_pages\": [\n    2\n  ]\n}",
-    "time_seconds": 7.0
+    "time_seconds": 8.66
   },
   {
     "id": "q_0404",
@@ -9318,7 +9269,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 5107124,\n  \"evidence_pages\": [5, 12]\n}",
-    "time_seconds": 5.11
+    "time_seconds": 6.4
   },
   {
     "id": "q_0405",
@@ -9343,7 +9294,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 19.2,\n  \"evidence_pages\": [5, 16]\n}",
-    "time_seconds": 6.66
+    "time_seconds": 7.51
   },
   {
     "id": "q_0406",
@@ -9368,7 +9319,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 3,\n  \"evidence_pages\": [17]\n}",
-    "time_seconds": 4.19
+    "time_seconds": 5.01
   },
   {
     "id": "q_0407",
@@ -9393,7 +9344,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"30～39歳\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.98
+    "time_seconds": 4.79
   },
   {
     "id": "q_0408",
@@ -9418,7 +9369,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\"アカメガシワ\", \"クサギ\", \"エゴノキ\", \"タラノキ\"],\n  \"evidence_pages\": [11, 12]\n}",
-    "time_seconds": 6.13
+    "time_seconds": 7.1
   },
   {
     "id": "q_0409",
@@ -9443,7 +9394,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": [\"光触媒\", \"ロボットスーツＨＡＬ\"],\n  \"evidence_pages\": [3, 9]\n}",
-    "time_seconds": 5.36
+    "time_seconds": 6.48
   },
   {
     "id": "q_0410",
@@ -9468,7 +9419,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"家賃滞納時の督促業務\",\n  \"evidence_pages\": [10, 13]\n}",
-    "time_seconds": 5.64
+    "time_seconds": 7.08
   },
   {
     "id": "q_0411",
@@ -9493,7 +9444,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": [\"宮城県\", \"茨城県\", \"千葉県\", \"東京都\"],\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 5.27
+    "time_seconds": 6.35
   },
   {
     "id": "q_0412",
@@ -9509,7 +9460,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\"土石流危険渓流被害影響範囲\", \"地すべり危険箇所\", \"急傾斜地崩壊危険箇所及び被害影響範囲\"],\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 5.19
+    "time_seconds": 5.85
   },
   {
     "id": "q_0413",
@@ -9525,7 +9476,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"宮下和夫\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.24
+    "time_seconds": 3.75
   },
   {
     "id": "q_0414",
@@ -9550,7 +9501,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [10, 12]\n}",
-    "time_seconds": 4.26
+    "time_seconds": 5.26
   },
   {
     "id": "q_0415",
@@ -9575,7 +9526,7 @@
       25
     ],
     "raw_model_output": "{\n  \"answer\": 14,\n  \"evidence_pages\": [24, 25]\n}",
-    "time_seconds": 3.65
+    "time_seconds": 4.3
   },
   {
     "id": "q_0416",
@@ -9600,7 +9551,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"平成21年4月～6月\",\n    \"4\"\n  ],\n  \"evidence_pages\": [\n    15\n  ]\n}",
-    "time_seconds": 5.12
+    "time_seconds": 5.64
   },
   {
     "id": "q_0417",
@@ -9625,7 +9576,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": 0.5,\n  \"evidence_pages\": [13, 14]\n}",
-    "time_seconds": 5.69
+    "time_seconds": 6.65
   },
   {
     "id": "q_0418",
@@ -9650,7 +9601,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 7,\n  \"evidence_pages\": [15]\n}",
-    "time_seconds": 3.84
+    "time_seconds": 4.56
   },
   {
     "id": "q_0419",
@@ -9675,7 +9626,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": 427284081,\n  \"evidence_pages\": [23]\n}",
-    "time_seconds": 4.85
+    "time_seconds": 5.83
   },
   {
     "id": "q_0420",
@@ -9699,7 +9650,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 325,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.13
+    "time_seconds": 6.01
   },
   {
     "id": "q_0421",
@@ -9723,7 +9674,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": 106600,\n  \"evidence_pages\": [27]\n}",
-    "time_seconds": 6.52
+    "time_seconds": 7.53
   },
   {
     "id": "q_0422",
@@ -9739,7 +9690,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 100,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 2.94
+    "time_seconds": 3.45
   },
   {
     "id": "q_0423",
@@ -9765,7 +9716,7 @@
       45
     ],
     "raw_model_output": "{\n  \"answer\": [\"福岡北九州高速道路公社\", \"北九州市道路公社\"],\n  \"evidence_pages\": [31, 38, 45]\n}",
-    "time_seconds": 5.54
+    "time_seconds": 6.41
   },
   {
     "id": "q_0424",
@@ -9790,7 +9741,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": \"佐世保相浦循環線\",\n  \"evidence_pages\": [24, 27]\n}",
-    "time_seconds": 6.2
+    "time_seconds": 7.38
   },
   {
     "id": "q_0425",
@@ -9815,7 +9766,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"伏見分館\",\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.74
+    "time_seconds": 4.72
   },
   {
     "id": "q_0426",
@@ -9840,7 +9791,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 0.02,\n  \"evidence_pages\": [2, 7]\n}",
-    "time_seconds": 4.18
+    "time_seconds": 5.04
   },
   {
     "id": "q_0427",
@@ -9866,7 +9817,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": 4,\n  \"evidence_pages\": [17, 18, 22]\n}",
-    "time_seconds": 5.12
+    "time_seconds": 6.29
   },
   {
     "id": "q_0428",
@@ -9891,7 +9842,7 @@
       43
     ],
     "raw_model_output": "{\n  \"answer\": [\"電気・ガス・熱供給・水道業\", \"生活関連サービス業，娯楽業\"],\n  \"evidence_pages\": [42]\n}",
-    "time_seconds": 6.15
+    "time_seconds": 7.3
   },
   {
     "id": "q_0429",
@@ -9916,7 +9867,7 @@
       19
     ],
     "raw_model_output": "{\n  \"answer\": \"農業集落排水事業特別会計\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 5.0
+    "time_seconds": 6.11
   },
   {
     "id": "q_0430",
@@ -9941,7 +9892,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"ノンステップバス\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.1
+    "time_seconds": 8.26
   },
   {
     "id": "q_0431",
@@ -9965,7 +9916,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"石橋村\",\n    \"武兵衛\",\n    \"平治郎\",\n    \"平治郎\",\n    \"金兵衛\",\n    \"徳兵衛\",\n    \"平五郎\",\n    \"長十郎\",\n    \"蔵三郎\",\n    \"清四郎\",\n    \"坂三郎\",\n    \"清四郎\",\n    \"藤四郎\",\n    \"岩村\",\n    \"名主\",\n    \"百姓\",\n    \"願兵衛\"\n  ],\n  \"evidence_pages\": [\n    16\n  ]\n}",
-    "time_seconds": 15.53
+    "time_seconds": 16.34
   },
   {
     "id": "q_0432",
@@ -9990,7 +9941,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.48
+    "time_seconds": 5.02
   },
   {
     "id": "q_0433",
@@ -10014,7 +9965,7 @@
       33
     ],
     "raw_model_output": "{\n  \"answer\": \"真鶴村\",\n  \"evidence_pages\": [33]\n}",
-    "time_seconds": 4.2
+    "time_seconds": 4.8
   },
   {
     "id": "q_0434",
@@ -10039,7 +9990,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [23, 24]\n}",
-    "time_seconds": 3.7
+    "time_seconds": 4.34
   },
   {
     "id": "q_0435",
@@ -10064,7 +10015,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": [\"粗暴犯\", \"風俗犯\", \"その他\"],\n  \"evidence_pages\": [22]\n}",
-    "time_seconds": 4.45
+    "time_seconds": 5.16
   },
   {
     "id": "q_0436",
@@ -10089,7 +10040,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": \"家屋\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.65
+    "time_seconds": 6.12
   },
   {
     "id": "q_0437",
@@ -10114,7 +10065,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"永源寺南部地区\",\n  \"evidence_pages\": [4, 12]\n}",
-    "time_seconds": 5.42
+    "time_seconds": 6.24
   },
   {
     "id": "q_0438",
@@ -10125,20 +10076,18 @@
     "num_pages": 20,
     "num_low_content": 17,
     "retrieved_pages": [
-      3,
-      8,
-      9,
-      11,
       14,
       17,
       18
     ],
-    "predicted_answer": "電子",
+    "predicted_answer": "0",
     "predicted_pages": [
-      4
+      14,
+      17,
+      18
     ],
-    "raw_model_output": "{\n  \"answer\": \"電子\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 5.81
+    "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [14, 17, 18]\n}",
+    "time_seconds": 4.85
   },
   {
     "id": "q_0439",
@@ -10163,7 +10112,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": [\"医療系\"],\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 5.08
+    "time_seconds": 6.71
   },
   {
     "id": "q_0440",
@@ -10188,7 +10137,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 28,\n  \"evidence_pages\": [4, 10]\n}",
-    "time_seconds": 4.23
+    "time_seconds": 5.33
   },
   {
     "id": "q_0441",
@@ -10204,7 +10153,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"海南市 消防署\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 2.85
+    "time_seconds": 3.2
   },
   {
     "id": "q_0442",
@@ -10229,7 +10178,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.33
+    "time_seconds": 8.96
   },
   {
     "id": "q_0443",
@@ -10245,7 +10194,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"野生動物とはふれあわない\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.35
+    "time_seconds": 3.67
   },
   {
     "id": "q_0444",
@@ -10270,7 +10219,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"製造業\",\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 4.1
+    "time_seconds": 5.17
   },
   {
     "id": "q_0445",
@@ -10294,7 +10243,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 0.1,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.56
+    "time_seconds": 6.26
   },
   {
     "id": "q_0446",
@@ -10319,7 +10268,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 1000,\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 5.27
+    "time_seconds": 6.72
   },
   {
     "id": "q_0447",
@@ -10344,7 +10293,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"適切な手続きである\",\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 4.04
+    "time_seconds": 5.18
   },
   {
     "id": "q_0448",
@@ -10369,7 +10318,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 4.09
+    "time_seconds": 4.99
   },
   {
     "id": "q_0449",
@@ -10394,7 +10343,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"小企業\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.66
+    "time_seconds": 4.56
   },
   {
     "id": "q_0450",
@@ -10419,7 +10368,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"受けたことがない\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 3.38
+    "time_seconds": 4.0
   },
   {
     "id": "q_0451",
@@ -10444,7 +10393,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": 41.0,\n  \"evidence_pages\": [5, 9]\n}",
-    "time_seconds": 4.55
+    "time_seconds": 5.54
   },
   {
     "id": "q_0452",
@@ -10464,7 +10413,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [1, 3]\n}",
-    "time_seconds": 2.68
+    "time_seconds": 2.88
   },
   {
     "id": "q_0453",
@@ -10489,7 +10438,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"日本と米国\",\n  \"evidence_pages\": [9, 10]\n}",
-    "time_seconds": 3.72
+    "time_seconds": 4.27
   },
   {
     "id": "q_0454",
@@ -10514,7 +10463,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 5.14
+    "time_seconds": 6.5
   },
   {
     "id": "q_0455",
@@ -10538,7 +10487,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"約5倍\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.87
+    "time_seconds": 4.76
   },
   {
     "id": "q_0456",
@@ -10563,7 +10512,7 @@
       84
     ],
     "raw_model_output": "{\n  \"answer\": [\"大分市\", \"別府市\", \"中津市\", \"日田市\", \"佐伯市\", \"臼杵市\", \"津久見市\", \"竹田市\", \"豊後高田市\", \"杵築市\", \"宇佐市\", \"豊後大野市\", \"由布市\", \"国東市\", \"姫島村\", \"日出町\", \"九重町\", \"玖珠町\"],\n  \"evidence_pages\": [84]\n}",
-    "time_seconds": 11.4
+    "time_seconds": 12.02
   },
   {
     "id": "q_0457",
@@ -10579,7 +10528,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\"都筑区民活動センター\"],\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 6.7
+    "time_seconds": 9.39
   },
   {
     "id": "q_0458",
@@ -10595,7 +10544,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"武蔵市役所 総務課 安全安心係\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.16
+    "time_seconds": 4.44
   },
   {
     "id": "q_0459",
@@ -10620,7 +10569,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\"外資系\"],\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 5.36
+    "time_seconds": 7.21
   },
   {
     "id": "q_0460",
@@ -10645,7 +10594,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"（４）住民票関係情報と突合して、現住所とのマッチングを行い不正入居者を検出するほか、出生・死亡などによる世帯情報の変更を確認する\",\n  \"evidence_pages\": [12]\n}",
-    "time_seconds": 8.54
+    "time_seconds": 10.29
   },
   {
     "id": "q_0461",
@@ -10670,7 +10619,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"一般政府グロス債務GDP比\",\n  \"evidence_pages\": [6, 7]\n}",
-    "time_seconds": 4.3
+    "time_seconds": 5.18
   },
   {
     "id": "q_0462",
@@ -10695,7 +10644,7 @@
       30
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [29]\n}",
-    "time_seconds": 3.76
+    "time_seconds": 4.5
   },
   {
     "id": "q_0463",
@@ -10721,7 +10670,7 @@
       33
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [20, 21, 33]\n}",
-    "time_seconds": 4.34
+    "time_seconds": 5.1
   },
   {
     "id": "q_0464",
@@ -10746,7 +10695,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"井手浦配水池, 221,100m³\",\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 6.95
+    "time_seconds": 7.87
   },
   {
     "id": "q_0465",
@@ -10771,7 +10720,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 144,\n  \"evidence_pages\": [2, 5]\n}",
-    "time_seconds": 4.33
+    "time_seconds": 5.38
   },
   {
     "id": "q_0466",
@@ -10796,7 +10745,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": \"女性を「採っていない」\",\n  \"evidence_pages\": [1, 5]\n}",
-    "time_seconds": 4.79
+    "time_seconds": 5.77
   },
   {
     "id": "q_0467",
@@ -10815,7 +10764,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"調整こま\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 2.62
+    "time_seconds": 2.7
   },
   {
     "id": "q_0468",
@@ -10840,7 +10789,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"1,000人以上\",\n  \"evidence_pages\": [9, 10]\n}",
-    "time_seconds": 4.54
+    "time_seconds": 5.43
   },
   {
     "id": "q_0469",
@@ -10869,7 +10818,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"南部簡易水道地区\",\n  \"evidence_pages\": [1, 2, 3, 4, 5, 6]\n}",
-    "time_seconds": 6.57
+    "time_seconds": 7.37
   },
   {
     "id": "q_0470",
@@ -10893,7 +10842,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"個人情報\",\n  \"evidence_pages\": [16]\n}",
-    "time_seconds": 3.58
+    "time_seconds": 4.02
   },
   {
     "id": "q_0471",
@@ -10918,7 +10867,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"タラノキ\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.99
+    "time_seconds": 5.0
   },
   {
     "id": "q_0472",
@@ -10943,7 +10892,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": -1441,\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 4.78
+    "time_seconds": 6.21
   },
   {
     "id": "q_0473",
@@ -10968,7 +10917,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\"仮名化データ\"],\n  \"evidence_pages\": [2, 3]\n}",
-    "time_seconds": 3.75
+    "time_seconds": 4.19
   },
   {
     "id": "q_0474",
@@ -10992,7 +10941,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"西念寺\",\n    \"常泉寺\"\n  ],\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 5.36
+    "time_seconds": 5.8
   },
   {
     "id": "q_0475",
@@ -11017,7 +10966,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"弘前大学\",\n    \"秋田大学\",\n    \"山形大学\",\n    \"群馬大学\",\n    \"富山大学\",\n    \"金沢大学\",\n    \"福井大学\",\n    \"山梨大学\",\n    \"信州大学\",\n    \"岐阜大学\",\n    \"三重大学\",\n    \"鳥取大学\",\n    \"島根大学\",\n    \"山口大学\",\n    \"徳島大学\",\n    \"香川大学\",\n    \"愛媛大学\",\n    \"高知大学\",\n    \"佐賀大学\",\n    \"長崎大学\",\n    \"熊本大学\",\n    \"大分大学\",\n    \"宮崎大学\",\n    \"鹿児島大学\",\n    \"琉球大学\"\n  ],\n  \"evidence_pages\": [\n    20,\n    21\n  ]\n}",
-    "time_seconds": 21.93
+    "time_seconds": 23.74
   },
   {
     "id": "q_0476",
@@ -11034,7 +10983,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 125,\n  \"evidence_pages\": [5, 6]\n}",
-    "time_seconds": 6.72
+    "time_seconds": 9.39
   },
   {
     "id": "q_0477",
@@ -11050,7 +10999,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"高田橋廻り\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.49
+    "time_seconds": 4.1
   },
   {
     "id": "q_0478",
@@ -11075,7 +11024,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": \"14ch\",\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 3.78
+    "time_seconds": 4.6
   },
   {
     "id": "q_0479",
@@ -11100,7 +11049,7 @@
       32
     ],
     "raw_model_output": "{\n  \"answer\": 2900,\n  \"evidence_pages\": [31, 32]\n}",
-    "time_seconds": 4.5
+    "time_seconds": 5.43
   },
   {
     "id": "q_0480",
@@ -11116,7 +11065,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"恩田橋\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.05
+    "time_seconds": 3.31
   },
   {
     "id": "q_0481",
@@ -11141,7 +11090,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": [\"中国\", \"台湾\", \"韓国\", \"ベトナム\", \"タイ\"],\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 7.53
+    "time_seconds": 9.71
   },
   {
     "id": "q_0482",
@@ -11166,7 +11115,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"2020オリンピック・パラリンピック競技大会招致活動支援助成\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 5.32
+    "time_seconds": 6.42
   },
   {
     "id": "q_0483",
@@ -11191,7 +11140,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [6, 8]\n}",
-    "time_seconds": 3.48
+    "time_seconds": 4.13
   },
   {
     "id": "q_0484",
@@ -11217,7 +11166,7 @@
       27
     ],
     "raw_model_output": "{\n  \"answer\": \"トコトコ大田原\",\n  \"evidence_pages\": [6, 18, 27]\n}",
-    "time_seconds": 6.67
+    "time_seconds": 8.32
   },
   {
     "id": "q_0485",
@@ -11242,7 +11191,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 10.7,\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.19
+    "time_seconds": 4.99
   },
   {
     "id": "q_0486",
@@ -11268,7 +11217,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 4, 7]\n}",
-    "time_seconds": 5.6
+    "time_seconds": 7.38
   },
   {
     "id": "q_0487",
@@ -11293,7 +11242,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"特別共同利用研究員\",\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 3.76
+    "time_seconds": 4.38
   },
   {
     "id": "q_0488",
@@ -11318,7 +11267,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"マルガタゲンゴロウ\",\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 5.57
+    "time_seconds": 7.43
   },
   {
     "id": "q_0489",
@@ -11344,7 +11293,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": \"各種事業用\",\n  \"evidence_pages\": [4, 9, 24]\n}",
-    "time_seconds": 4.01
+    "time_seconds": 4.67
   },
   {
     "id": "q_0490",
@@ -11369,7 +11318,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"上級行政職( 社会福祉士)\",\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 8.36
+    "time_seconds": 11.96
   },
   {
     "id": "q_0491",
@@ -11394,7 +11343,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 156,\n  \"evidence_pages\": [2, 8]\n}",
-    "time_seconds": 4.96
+    "time_seconds": 6.16
   },
   {
     "id": "q_0492",
@@ -11419,7 +11368,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [14]\n}",
-    "time_seconds": 3.77
+    "time_seconds": 4.79
   },
   {
     "id": "q_0493",
@@ -11450,7 +11399,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"0\"],\n  \"evidence_pages\": [1, 2, 3, 4, 5, 6, 7, 8]\n}",
-    "time_seconds": 6.07
+    "time_seconds": 7.27
   },
   {
     "id": "q_0494",
@@ -11475,7 +11424,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 11830,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 4.28
+    "time_seconds": 5.2
   },
   {
     "id": "q_0495",
@@ -11503,7 +11452,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"(仮称)目黒区大橋一丁目Ⅱ計画新築工事\",\n  \"evidence_pages\": [3, 5, 7, 8, 9]\n}",
-    "time_seconds": 7.58
+    "time_seconds": 8.61
   },
   {
     "id": "q_0496",
@@ -11528,7 +11477,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"自然環境の保全および循環型社会づくりに関する事業\",\n  \"evidence_pages\": [5, 16]\n}",
-    "time_seconds": 5.25
+    "time_seconds": 6.19
   },
   {
     "id": "q_0497",
@@ -11553,7 +11502,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"みどりが丘整形外科クリニック\",\n  \"evidence_pages\": [7, 10]\n}",
-    "time_seconds": 8.93
+    "time_seconds": 12.59
   },
   {
     "id": "q_0498",
@@ -11579,7 +11528,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"地引網\", \"鮒夜網\", \"はうけ網\"],\n  \"evidence_pages\": [5, 7, 8]\n}",
-    "time_seconds": 5.61
+    "time_seconds": 6.3
   },
   {
     "id": "q_0499",
@@ -11604,7 +11553,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 24408,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.52
+    "time_seconds": 5.69
   },
   {
     "id": "q_0500",
@@ -11621,7 +11570,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 6.51
+    "time_seconds": 9.21
   },
   {
     "id": "q_0501",
@@ -11646,7 +11595,7 @@
       44
     ],
     "raw_model_output": "{\n  \"answer\": 33.4,\n  \"evidence_pages\": [15, 44]\n}",
-    "time_seconds": 4.1
+    "time_seconds": 4.92
   },
   {
     "id": "q_0502",
@@ -11671,7 +11620,7 @@
       33
     ],
     "raw_model_output": "{\n\"answer\": \"0\",\n\"evidence_pages\": [15]\n}",
-    "time_seconds": 2.88
+    "time_seconds": 3.34
   },
   {
     "id": "q_0503",
@@ -11697,7 +11646,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 8.0,\n  \"evidence_pages\": [3, 6, 7]\n}",
-    "time_seconds": 4.59
+    "time_seconds": 5.81
   },
   {
     "id": "q_0504",
@@ -11721,7 +11670,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\"イラン\", \"スリランカ\", \"パキスタン\"],\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 5.17
+    "time_seconds": 6.38
   },
   {
     "id": "q_0505",
@@ -11746,7 +11695,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"児童生徒の休み時間における対応\",\n    \"校内清掃\"\n  ],\n  \"evidence_pages\": [\n    6\n  ]\n}",
-    "time_seconds": 6.03
+    "time_seconds": 7.1
   },
   {
     "id": "q_0506",
@@ -11771,7 +11720,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": 100,\n  \"evidence_pages\": [10, 11]\n}",
-    "time_seconds": 5.29
+    "time_seconds": 6.49
   },
   {
     "id": "q_0507",
@@ -11795,7 +11744,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": 18,\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 4.63
+    "time_seconds": 5.59
   },
   {
     "id": "q_0508",
@@ -11820,7 +11769,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\"福井県\", \"鳥取県\", \"広島県\"],\n  \"evidence_pages\": [1, 12]\n}",
-    "time_seconds": 5.46
+    "time_seconds": 6.52
   },
   {
     "id": "q_0509",
@@ -11845,7 +11794,7 @@
       5
     ],
     "raw_model_output": "{\n\"answer\": 1978.33,\n\"evidence_pages\": [4]\n}",
-    "time_seconds": 4.14
+    "time_seconds": 5.2
   },
   {
     "id": "q_0510",
@@ -11867,7 +11816,7 @@
     "predicted_answer": "0",
     "predicted_pages": [],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": []\n}",
-    "time_seconds": 4.63
+    "time_seconds": 6.02
   },
   {
     "id": "q_0511",
@@ -11896,7 +11845,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"備品\",\n  \"evidence_pages\": [4, 5, 6, 10, 11, 12]\n}",
-    "time_seconds": 4.58
+    "time_seconds": 4.93
   },
   {
     "id": "q_0512",
@@ -11921,7 +11870,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"浪江町\",\n    \"葛尾村\",\n    \"双葉町\",\n    \"大熊町\",\n    \"富岡町\",\n    \"楢葉町\",\n    \"飯舘村\",\n    \"川内村\",\n    \"飯島町\",\n    \"田村市\",\n    \"小野町\",\n    \"南相馬市\",\n    \"相馬市\",\n    \"新地町\",\n    \"桑折町\",\n    \"伊達市\",\n    \"川俣町\",\n    \"鏡石町\",\n    \"会津若松市\",\n    \"北塩原村\",\n    \"只見町\",\n    \"大沼郡\",\n    \"耶麻郡\",\n    \"河沼郡\",\n    \"岩瀬村\",\n    \"三春町\",\n    \"本宮市\",\n    \"白河市\",\n    \"東白川郡\",\n    \"棚倉町\",\n    \"矢吹町\",\n    \"塙町\",\n    \"塙町\",\n    \"岩瀬村\",\n    \"三春町\",\n    \"本宮市\",\n    \"白河市\",\n    \"東白川郡\",\n    \"棚倉町\",\n    \"矢吹町\",\n    \"塙町\"\n  ],\n  \"evidence_pages\": [\n    ",
-    "time_seconds": 33.03
+    "time_seconds": 33.29
   },
   {
     "id": "q_0513",
@@ -11937,7 +11886,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.56
+    "time_seconds": 2.88
   },
   {
     "id": "q_0514",
@@ -11961,7 +11910,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"イベント\", \"施設\", \"相談\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 5.68
+    "time_seconds": 6.32
   },
   {
     "id": "q_0515",
@@ -11986,7 +11935,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 2,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 3.45
+    "time_seconds": 4.24
   },
   {
     "id": "q_0516",
@@ -12011,7 +11960,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": [\"機械判読に適したもの\", \"無償で利用できるもの\"],\n  \"evidence_pages\": [4, 10]\n}",
-    "time_seconds": 4.7
+    "time_seconds": 5.14
   },
   {
     "id": "q_0517",
@@ -12036,7 +11985,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 195.8,\n  \"evidence_pages\": [10]\n}",
-    "time_seconds": 6.7
+    "time_seconds": 9.07
   },
   {
     "id": "q_0518",
@@ -12053,7 +12002,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\"大江戸線\"],\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.15
+    "time_seconds": 3.57
   },
   {
     "id": "q_0519",
@@ -12077,7 +12026,7 @@
       24
     ],
     "raw_model_output": "{\n  \"answer\": 1,\n  \"evidence_pages\": [24]\n}",
-    "time_seconds": 3.41
+    "time_seconds": 4.0
   },
   {
     "id": "q_0520",
@@ -12102,7 +12051,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"アユ\",\n    \"イワナ\",\n    \"コイ\",\n    \"フナ\"\n  ],\n  \"evidence_pages\": [\n    4,\n    6\n  ]\n}",
-    "time_seconds": 9.01
+    "time_seconds": 9.66
   },
   {
     "id": "q_0521",
@@ -12127,7 +12076,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": [\"業務部門\"],\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 4.18
+    "time_seconds": 5.13
   },
   {
     "id": "q_0522",
@@ -12152,7 +12101,7 @@
       26
     ],
     "raw_model_output": "{\n  \"answer\": \"日本道路公団、約75%\",\n  \"evidence_pages\": [24, 26]\n}",
-    "time_seconds": 5.84
+    "time_seconds": 7.45
   },
   {
     "id": "q_0523",
@@ -12177,7 +12126,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"土曜日\",\n  \"evidence_pages\": [4, 8]\n}",
-    "time_seconds": 7.26
+    "time_seconds": 10.22
   },
   {
     "id": "q_0524",
@@ -12202,7 +12151,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"島原配水池\",\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 5.83
+    "time_seconds": 6.43
   },
   {
     "id": "q_0525",
@@ -12227,7 +12176,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 12,\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 4.28
+    "time_seconds": 5.41
   },
   {
     "id": "q_0526",
@@ -12252,7 +12201,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 106254,\n  \"evidence_pages\": [3, 5]\n}",
-    "time_seconds": 5.22
+    "time_seconds": 6.47
   },
   {
     "id": "q_0527",
@@ -12277,7 +12226,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"横浜市\", \"鎌倉市\"],\n  \"evidence_pages\": [6, 8]\n}",
-    "time_seconds": 4.91
+    "time_seconds": 6.13
   },
   {
     "id": "q_0528",
@@ -12293,7 +12242,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"低周波音の大きさ（音圧）の測定\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 3.72
+    "time_seconds": 4.24
   },
   {
     "id": "q_0529",
@@ -12323,7 +12272,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"龍田病院\",\n    \"九品寺身心クリニック\",\n    \"池上第二クリニック\",\n    \"江津湖クリニック\",\n    \"みとま神経内科クリニック\",\n    \"上通りメンタルクリニック\",\n    \"新田メンタルクリニック\",\n    \"よやすクリニック\",\n    \"熊本託麻台リハビリテーション病院\",\n    \"小島内科小児科医院\",\n    \"熊本こども発達支援センター\",\n    \"くまもと青明病院\",\n    \"独立行政法人国立病院機構 熊本医療センター\",\n    \"十善病院\",\n    \"藤崎宮前クリニック\",\n    \"熊本大学病院\",\n    \"長嶺そよかぜクリニック\",\n    \"二キ ハーディー ホスピタル\",\n    \"長嶺北クリニック\",\n    \"上熊本内科\",\n    \"山口病院\",\n    \"森病院\"\n  ],\n  \"evidence_pages\": [\n    6,\n    7,\n    9,\n    10,\n    11,\n    15,\n    16\n  ]\n}",
-    "time_seconds": 28.36
+    "time_seconds": 29.82
   },
   {
     "id": "q_0530",
@@ -12347,7 +12296,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"香川県三木町\", \"香川県三庄町\", \"香川県小豆島町\", \"香川県多度津町\", \"北海道石狩市\", \"北海道江別市\", \"大阪府箕面市\", \"大阪府枚方市\", \"奈良県宇陀市\", \"四国市議会議長会\", \"高知県市議会議長会\"],\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 12.35
+    "time_seconds": 13.17
   },
   {
     "id": "q_0531",
@@ -12364,7 +12313,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 195,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.31
+    "time_seconds": 3.79
   },
   {
     "id": "q_0532",
@@ -12389,7 +12338,7 @@
       75
     ],
     "raw_model_output": "{\n  \"answer\": [\"rxnoisy\", \"rx_mean\"],\n  \"evidence_pages\": [75]\n}",
-    "time_seconds": 4.16
+    "time_seconds": 4.64
   },
   {
     "id": "q_0533",
@@ -12414,7 +12363,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"生活の様相\",\n  \"evidence_pages\": [2, 3]\n}",
-    "time_seconds": 5.28
+    "time_seconds": 6.71
   },
   {
     "id": "q_0534",
@@ -12439,7 +12388,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [1, 16]\n}",
-    "time_seconds": 4.84
+    "time_seconds": 6.26
   },
   {
     "id": "q_0535",
@@ -12464,7 +12413,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": [\"ケヤキ\"],\n  \"evidence_pages\": [16, 21]\n}",
-    "time_seconds": 4.24
+    "time_seconds": 4.58
   },
   {
     "id": "q_0536",
@@ -12490,7 +12439,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"アカメガシワ\",\n    \"クサギ\",\n    \"エゴノキ\",\n    \"タラノキ\"\n  ],\n  \"evidence_pages\": [\n    7,\n    11,\n    12\n  ]\n}",
-    "time_seconds": 8.33
+    "time_seconds": 9.3
   },
   {
     "id": "q_0537",
@@ -12515,7 +12464,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"水道使用量\",\n  \"evidence_pages\": [7]\n}",
-    "time_seconds": 5.16
+    "time_seconds": 6.84
   },
   {
     "id": "q_0538",
@@ -12540,7 +12489,7 @@
       31
     ],
     "raw_model_output": "{\n  \"answer\": 8.33,\n  \"evidence_pages\": [31]\n}",
-    "time_seconds": 3.5
+    "time_seconds": 4.25
   },
   {
     "id": "q_0539",
@@ -12565,7 +12514,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 122,\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.45
+    "time_seconds": 4.2
   },
   {
     "id": "q_0540",
@@ -12590,7 +12539,7 @@
       26
     ],
     "raw_model_output": "{\n  \"answer\": \"女性 25～34歳\",\n  \"evidence_pages\": [5, 26]\n}",
-    "time_seconds": 4.5
+    "time_seconds": 5.21
   },
   {
     "id": "q_0541",
@@ -12615,7 +12564,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 6.33
+    "time_seconds": 8.97
   },
   {
     "id": "q_0542",
@@ -12640,7 +12589,7 @@
       36
     ],
     "raw_model_output": "{\n  \"answer\": \"イ，ア\",\n  \"evidence_pages\": [36]\n}",
-    "time_seconds": 3.93
+    "time_seconds": 4.67
   },
   {
     "id": "q_0543",
@@ -12664,7 +12613,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"医療\",\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 3.56
+    "time_seconds": 4.1
   },
   {
     "id": "q_0544",
@@ -12689,7 +12638,7 @@
       23
     ],
     "raw_model_output": "{\n  \"answer\": [\"馬頭総合福祉センター\", \"ウェルフルなかがわ\"],\n  \"evidence_pages\": [4, 23]\n}",
-    "time_seconds": 5.53
+    "time_seconds": 6.66
   },
   {
     "id": "q_0545",
@@ -12705,7 +12654,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"甲津畑\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.95
+    "time_seconds": 3.2
   },
   {
     "id": "q_0546",
@@ -12735,7 +12684,7 @@
       17
     ],
     "raw_model_output": "{\n  \"answer\": \"No.2\",\n  \"evidence_pages\": [10, 11, 13, 14, 15, 16, 17]\n}",
-    "time_seconds": 6.61
+    "time_seconds": 7.62
   },
   {
     "id": "q_0547",
@@ -12760,7 +12709,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": 11377,\n  \"evidence_pages\": [6, 9]\n}",
-    "time_seconds": 5.25
+    "time_seconds": 6.87
   },
   {
     "id": "q_0548",
@@ -12785,7 +12734,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": \"農林漁業\",\n  \"evidence_pages\": [13, 15]\n}",
-    "time_seconds": 5.34
+    "time_seconds": 6.39
   },
   {
     "id": "q_0549",
@@ -12801,7 +12750,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"環境政策課\",\n    \"市民課\"\n  ],\n  \"evidence_pages\": [\n    1\n  ]\n}",
-    "time_seconds": 5.57
+    "time_seconds": 5.87
   },
   {
     "id": "q_0550",
@@ -12826,7 +12775,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"固定電気通信\",\n    \"移動電気通信\",\n    \"郵便\",\n    \"その他の電気通信\",\n    \"その他の通信サービス\",\n    \"公共放送\",\n    \"民間テレビジョン放送・多重放送\",\n    \"民間ラジオ放送\",\n    \"民間衛星放送\",\n    \"有線テレビジョン放送\",\n    \"有線ラジオ放送\",\n    \"ソフトウェア業\",\n    \"情報処理サービス\",\n    \"情報提供サービス\",\n    \"新聞\",\n    \"出版\",\n    \"ニュース供給\",\n    \"映画・ビデオ制作・配給業\",\n    \"パーソナルコンピュータ\",\n    \"電子計算機本体（除パソコン）\",\n    \"電子計算機付属装置\",\n    \"有線電気通信機器\",\n    \"携帯電話機\",\n    \"無線電気通信機器（除携帯電話機）\",\n    \"磁気テープ・磁気ディスク\",\n    \"ラジオ・テレビ受信機\",\n    \"ビデオ機器\",\n    \"通信ケーブル・光ファイバケーブル\",\n    \"事務用機械\",\n    \"電気音響機器\",\n ",
-    "time_seconds": 35.37
+    "time_seconds": 36.75
   },
   {
     "id": "q_0551",
@@ -12851,7 +12800,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 0,\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 3.36
+    "time_seconds": 3.94
   },
   {
     "id": "q_0552",
@@ -12876,7 +12825,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"関谷の城鍬舞\",\n  \"evidence_pages\": [2, 6]\n}",
-    "time_seconds": 7.36
+    "time_seconds": 10.15
   },
   {
     "id": "q_0553",
@@ -12901,7 +12850,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": \"正範囲index法\",\n  \"evidence_pages\": [29]\n}",
-    "time_seconds": 4.26
+    "time_seconds": 5.27
   },
   {
     "id": "q_0554",
@@ -12926,7 +12875,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": \"１００歳以上\",\n  \"evidence_pages\": [2, 12]\n}",
-    "time_seconds": 5.05
+    "time_seconds": 6.23
   },
   {
     "id": "q_0555",
@@ -12942,7 +12891,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"7\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.77
+    "time_seconds": 3.03
   },
   {
     "id": "q_0556",
@@ -12967,7 +12916,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\"スリランカ\", \"パキスタン\", \"バングラデシュ\", \"ブラジル\", \"ペルー\", \"マレーシア\"],\n  \"evidence_pages\": [8, 11]\n}",
-    "time_seconds": 7.07
+    "time_seconds": 8.2
   },
   {
     "id": "q_0557",
@@ -12992,7 +12941,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\"食材\", \"労働力\", \"部屋/集客\", \"備品\"],\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 4.35
+    "time_seconds": 4.73
   },
   {
     "id": "q_0558",
@@ -13017,7 +12966,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": 1.7,\n  \"evidence_pages\": [13, 16]\n}",
-    "time_seconds": 6.24
+    "time_seconds": 7.32
   },
   {
     "id": "q_0559",
@@ -13042,7 +12991,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"下の谷川\",\n  \"evidence_pages\": [8, 10]\n}",
-    "time_seconds": 3.72
+    "time_seconds": 4.4
   },
   {
     "id": "q_0560",
@@ -13067,7 +13016,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 18.4,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.7
+    "time_seconds": 4.29
   },
   {
     "id": "q_0561",
@@ -13092,7 +13041,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"音楽コンテンツ数\",\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 4.83
+    "time_seconds": 6.0
   },
   {
     "id": "q_0562",
@@ -13117,7 +13066,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"教員研修・教員養成\",\n    \"宇宙教育指導者育成\"\n  ],\n  \"evidence_pages\": [\n    14,\n    16\n  ]\n}",
-    "time_seconds": 6.64
+    "time_seconds": 7.35
   },
   {
     "id": "q_0563",
@@ -13142,7 +13091,7 @@
       13
     ],
     "raw_model_output": "{\n  \"answer\": \"酸化セルロース\",\n  \"evidence_pages\": [12, 13]\n}",
-    "time_seconds": 5.22
+    "time_seconds": 5.99
   },
   {
     "id": "q_0564",
@@ -13167,7 +13116,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"ソーラー回転塔の作成と実験\",\n    \"ソーラーオルゴールの作成と実験\"\n  ],\n  \"evidence_pages\": [\n    21\n  ]\n}",
-    "time_seconds": 7.27
+    "time_seconds": 8.32
   },
   {
     "id": "q_0565",
@@ -13192,7 +13141,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": [\"ポルトガル\"],\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.53
+    "time_seconds": 4.3
   },
   {
     "id": "q_0566",
@@ -13217,7 +13166,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\"県審議会\", \"市町村審議会\", \"企業（係長相当職）\"],\n  \"evidence_pages\": [1, 5]\n}",
-    "time_seconds": 6.01
+    "time_seconds": 7.12
   },
   {
     "id": "q_0567",
@@ -13241,7 +13190,7 @@
       22
     ],
     "raw_model_output": "{\n  \"answer\": \"その観察又は調査の記録\",\n  \"evidence_pages\": [22]\n}",
-    "time_seconds": 5.99
+    "time_seconds": 6.85
   },
   {
     "id": "q_0568",
@@ -13266,7 +13215,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\"汐井川\", \"赤崎川\"],\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 3.83
+    "time_seconds": 4.41
   },
   {
     "id": "q_0569",
@@ -13293,7 +13242,7 @@
       29
     ],
     "raw_model_output": "{\n  \"answer\": 62.5,\n  \"evidence_pages\": [4, 5, 26, 29]\n}",
-    "time_seconds": 4.75
+    "time_seconds": 5.48
   },
   {
     "id": "q_0570",
@@ -13318,7 +13267,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": \"日本\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 3.12
+    "time_seconds": 3.66
   },
   {
     "id": "q_0571",
@@ -13343,7 +13292,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"課税有\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 3.79
+    "time_seconds": 4.65
   },
   {
     "id": "q_0572",
@@ -13359,7 +13308,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 11,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 6.61
+    "time_seconds": 9.42
   },
   {
     "id": "q_0573",
@@ -13375,7 +13324,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": [\"年齢\", \"趣味\"],\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.75
+    "time_seconds": 4.61
   },
   {
     "id": "q_0574",
@@ -13400,7 +13349,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"カドミウム\",\n  \"evidence_pages\": [2, 8]\n}",
-    "time_seconds": 5.77
+    "time_seconds": 6.61
   },
   {
     "id": "q_0575",
@@ -13425,7 +13374,7 @@
       19
     ],
     "raw_model_output": "{\n  \"answer\": 53,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 4.6
+    "time_seconds": 5.96
   },
   {
     "id": "q_0576",
@@ -13450,7 +13399,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"木綿畑新田の太々神楽\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 6.48
+    "time_seconds": 8.67
   },
   {
     "id": "q_0577",
@@ -13475,7 +13424,7 @@
       59
     ],
     "raw_model_output": "{\n  \"answer\": \"0\",\n  \"evidence_pages\": [23]\n}",
-    "time_seconds": 2.96
+    "time_seconds": 3.37
   },
   {
     "id": "q_0578",
@@ -13500,7 +13449,7 @@
       61
     ],
     "raw_model_output": "{\n  \"answer\": \"1,017\",\n  \"evidence_pages\": [1, 61]\n}",
-    "time_seconds": 11.15
+    "time_seconds": 16.12
   },
   {
     "id": "q_0579",
@@ -13525,7 +13474,7 @@
       20
     ],
     "raw_model_output": "{\n\"answer\": 7.2,\n\"evidence_pages\": [6]\n}",
-    "time_seconds": 3.05
+    "time_seconds": 3.63
   },
   {
     "id": "q_0580",
@@ -13546,7 +13495,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": \"担当課\",\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 2.61
+    "time_seconds": 2.91
   },
   {
     "id": "q_0581",
@@ -13571,7 +13520,7 @@
       42
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"こんろ\"\n  ],\n  \"evidence_pages\": [\n    26\n  ]\n}",
-    "time_seconds": 5.14
+    "time_seconds": 5.77
   },
   {
     "id": "q_0582",
@@ -13596,7 +13545,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 1947,\n  \"evidence_pages\": [8, 10]\n}",
-    "time_seconds": 4.07
+    "time_seconds": 4.82
   },
   {
     "id": "q_0583",
@@ -13621,7 +13570,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 100,\n  \"evidence_pages\": [4, 5]\n}",
-    "time_seconds": 3.79
+    "time_seconds": 4.6
   },
   {
     "id": "q_0584",
@@ -13646,7 +13595,7 @@
       40
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"北海道大学\",\n    \"京都大学\",\n    \"岡山大学\"\n  ],\n  \"evidence_pages\": [\n    38,\n    40\n  ]\n}",
-    "time_seconds": 7.55
+    "time_seconds": 9.09
   },
   {
     "id": "q_0585",
@@ -13671,7 +13620,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 132,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.44
+    "time_seconds": 4.17
   },
   {
     "id": "q_0586",
@@ -13696,7 +13645,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": 1.5,\n  \"evidence_pages\": [9, 10]\n}",
-    "time_seconds": 4.49
+    "time_seconds": 5.5
   },
   {
     "id": "q_0587",
@@ -13721,7 +13670,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": [\"最優秀館\", \"優秀館\"],\n  \"evidence_pages\": [1, 12]\n}",
-    "time_seconds": 4.98
+    "time_seconds": 6.09
   },
   {
     "id": "q_0588",
@@ -13747,7 +13696,7 @@
       36
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"親和図法\",\n    \"2×2（2 軸図）\",\n    \"Enabler Framework\"\n  ],\n  \"evidence_pages\": [\n    7,\n    20,\n    36\n  ]\n}",
-    "time_seconds": 7.68
+    "time_seconds": 8.28
   },
   {
     "id": "q_0589",
@@ -13772,7 +13721,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"健康づくり推進課\",\n  \"evidence_pages\": [5, 10]\n}",
-    "time_seconds": 8.54
+    "time_seconds": 12.17
   },
   {
     "id": "q_0590",
@@ -13797,7 +13746,7 @@
       14
     ],
     "raw_model_output": "{\n  \"answer\": 314,\n  \"evidence_pages\": [13, 14]\n}",
-    "time_seconds": 6.39
+    "time_seconds": 8.7
   },
   {
     "id": "q_0591",
@@ -13822,7 +13771,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"パンフレット\",\n    \"ホームページ\"\n  ],\n  \"evidence_pages\": [\n    4,\n    7\n  ]\n}",
-    "time_seconds": 5.27
+    "time_seconds": 6.08
   },
   {
     "id": "q_0592",
@@ -13837,16 +13786,14 @@
       9,
       12,
       13,
-      15,
-      19,
-      22
+      19
     ],
     "predicted_answer": "人材スカウター",
     "predicted_pages": [
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"人材スカウター\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.59
+    "time_seconds": 3.38
   },
   {
     "id": "q_0593",
@@ -13871,7 +13818,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": \"月\",\n  \"evidence_pages\": [16, 21]\n}",
-    "time_seconds": 4.76
+    "time_seconds": 6.09
   },
   {
     "id": "q_0594",
@@ -13896,7 +13843,7 @@
       32
     ],
     "raw_model_output": "{\n  \"answer\": 420,\n  \"evidence_pages\": [32]\n}",
-    "time_seconds": 3.99
+    "time_seconds": 5.0
   },
   {
     "id": "q_0595",
@@ -13912,7 +13859,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": \"両手を前に組んでいる\",\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 4.1
+    "time_seconds": 4.41
   },
   {
     "id": "q_0596",
@@ -13937,7 +13884,7 @@
       19
     ],
     "raw_model_output": "{\n  \"answer\": 11,\n  \"evidence_pages\": [18, 19]\n}",
-    "time_seconds": 4.34
+    "time_seconds": 5.19
   },
   {
     "id": "q_0597",
@@ -13962,7 +13909,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"大きな外科手術\",\n    \"妊娠・出産\",\n    \"献血\"\n  ],\n  \"evidence_pages\": [\n    2,\n    3\n  ]\n}",
-    "time_seconds": 5.88
+    "time_seconds": 6.62
   },
   {
     "id": "q_0598",
@@ -13987,7 +13934,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 16.8,\n  \"evidence_pages\": [4, 7]\n}",
-    "time_seconds": 4.1
+    "time_seconds": 4.99
   },
   {
     "id": "q_0599",
@@ -14011,7 +13958,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"地域で青少年が活動しているまち\",\n    \"地域で活動している人\"\n  ],\n  \"evidence_pages\": [\n    11\n  ]\n}",
-    "time_seconds": 6.99
+    "time_seconds": 7.74
   },
   {
     "id": "q_0600",
@@ -14036,7 +13983,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\"財務書類の体系\", \"税収の取扱い\"],\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 4.21
+    "time_seconds": 4.71
   },
   {
     "id": "q_0601",
@@ -14061,7 +14008,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": 14,\n  \"evidence_pages\": [3, 4]\n}",
-    "time_seconds": 4.98
+    "time_seconds": 6.65
   },
   {
     "id": "q_0602",
@@ -14086,7 +14033,7 @@
       16
     ],
     "raw_model_output": "{\n  \"answer\": \"体温計\",\n  \"evidence_pages\": [11]\n}",
-    "time_seconds": 3.66
+    "time_seconds": 4.42
   },
   {
     "id": "q_0603",
@@ -14102,7 +14049,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 6.03,\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 3.13
+    "time_seconds": 3.58
   },
   {
     "id": "q_0604",
@@ -14128,7 +14075,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": \"tăng\",\n  \"evidence_pages\": [1, 9, 11]\n}",
-    "time_seconds": 5.0
+    "time_seconds": 6.28
   },
   {
     "id": "q_0605",
@@ -14153,7 +14100,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": \"Chưa đủ điều kiện tốt nghiệp\",\n  \"evidence_pages\": [9]\n}",
-    "time_seconds": 3.82
+    "time_seconds": 4.47
   },
   {
     "id": "q_0606",
@@ -14178,7 +14125,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": 48.08,\n  \"evidence_pages\": [1, 8]\n}",
-    "time_seconds": 4.93
+    "time_seconds": 6.29
   },
   {
     "id": "q_0607",
@@ -14194,7 +14141,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"30 phút\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 3.94
+    "time_seconds": 4.15
   },
   {
     "id": "q_0608",
@@ -14210,7 +14157,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 22,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 6.81
+    "time_seconds": 7.48
   },
   {
     "id": "q_0609",
@@ -14236,7 +14183,7 @@
       9
     ],
     "raw_model_output": "{\n  \"answer\": 75.2,\n  \"evidence_pages\": [2, 8, 9]\n}",
-    "time_seconds": 4.14
+    "time_seconds": 4.71
   },
   {
     "id": "q_0610",
@@ -14261,7 +14208,7 @@
       15
     ],
     "raw_model_output": "{\n  \"answer\": 3,\n  \"evidence_pages\": [8, 15]\n}",
-    "time_seconds": 6.89
+    "time_seconds": 7.82
   },
   {
     "id": "q_0611",
@@ -14277,7 +14224,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 30,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.92
+    "time_seconds": 3.32
   },
   {
     "id": "q_0612",
@@ -14302,7 +14249,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 214779.73,\n  \"evidence_pages\": [1, 7]\n}",
-    "time_seconds": 5.85
+    "time_seconds": 7.41
   },
   {
     "id": "q_0613",
@@ -14327,7 +14274,7 @@
       10
     ],
     "raw_model_output": "{\n  \"answer\": \"(A) để đồ vật, chất dễ cháy gần thiết bị điện\",\n  \"evidence_pages\": [5, 10]\n}",
-    "time_seconds": 6.54
+    "time_seconds": 7.09
   },
   {
     "id": "q_0614",
@@ -14351,7 +14298,7 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": \"Nokia\",\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 3.84
+    "time_seconds": 4.65
   },
   {
     "id": "q_0615",
@@ -14376,7 +14323,7 @@
       39
     ],
     "raw_model_output": "{\n  \"answer\": \"VIB, 75%\",\n  \"evidence_pages\": [23, 39]\n}",
-    "time_seconds": 4.88
+    "time_seconds": 5.52
   },
   {
     "id": "q_0616",
@@ -14392,7 +14339,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": \"tỷ lệ đất xây dựng đô thị trên tổng diện tích đất tự nhiên\",\n  \"evidence_pages\": [2]\n}",
-    "time_seconds": 5.87
+    "time_seconds": 7.24
   },
   {
     "id": "q_0617",
@@ -14417,7 +14364,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 2089,\n  \"evidence_pages\": [4]\n}",
-    "time_seconds": 7.28
+    "time_seconds": 10.17
   },
   {
     "id": "q_0618",
@@ -14442,7 +14389,7 @@
       12
     ],
     "raw_model_output": "{\n  \"answer\": 58,\n  \"evidence_pages\": [6, 12]\n}",
-    "time_seconds": 7.26
+    "time_seconds": 8.02
   },
   {
     "id": "q_0619",
@@ -14467,7 +14414,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"Câu 2\",\n    \"Câu 22\"\n  ],\n  \"evidence_pages\": [\n    1,\n    6\n  ]\n}",
-    "time_seconds": 5.75
+    "time_seconds": 6.48
   },
   {
     "id": "q_0620",
@@ -14491,7 +14438,7 @@
       18
     ],
     "raw_model_output": "{\n  \"answer\": 3494819834975,\n  \"evidence_pages\": [18]\n}",
-    "time_seconds": 4.91
+    "time_seconds": 5.81
   },
   {
     "id": "q_0621",
@@ -14516,7 +14463,7 @@
       21
     ],
     "raw_model_output": "{\n  \"answer\": 606600,\n  \"evidence_pages\": [21]\n}",
-    "time_seconds": 3.62
+    "time_seconds": 4.16
   },
   {
     "id": "q_0622",
@@ -14532,7 +14479,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"áo giao lĩnh\",\n    \"áo tứ thân\",\n    \"áo ngũ thân\",\n    \"áo dài Le Mur\",\n    \"áo dài Lê Phổ\",\n    \"áo dài tay raglan\",\n    \"áo dài chít eo - miniraglan\",\n    \"áo dài Việt Nam từ 1970 đến nay\"\n  ],\n  \"evidence_pages\": [\n    2\n  ]\n}",
-    "time_seconds": 11.87
+    "time_seconds": 12.97
   },
   {
     "id": "q_0623",
@@ -14548,7 +14495,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 3840,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 2.93
+    "time_seconds": 3.29
   },
   {
     "id": "q_0624",
@@ -14564,7 +14511,7 @@
       1
     ],
     "raw_model_output": "Based on the document provided:\n\n1.  **Regarding the exam organization:** Page 4 states that the school will organize the exam if the total number of registered candidates is at least 150. In this scenario, the total number of candidates is only 140, which is less than 150. Therefore, the school will not organize the exam (\"nếu không đủ số lượng sẽ thông báo hoàn trả kinh phí trước ngày thi\").\n2.  **Regarding the specific group:** Page 4 also states that for specific groups like \"thi tiếng Anh..",
-    "time_seconds": 18.37
+    "time_seconds": 19.08
   },
   {
     "id": "q_0625",
@@ -14580,7 +14527,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"B\",\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.2
+    "time_seconds": 3.78
   },
   {
     "id": "q_0626",
@@ -14605,7 +14552,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 4,\n  \"evidence_pages\": [5, 6]\n}",
-    "time_seconds": 3.79
+    "time_seconds": 4.34
   },
   {
     "id": "q_0627",
@@ -14630,7 +14577,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": 1.5,\n  \"evidence_pages\": [5]\n}",
-    "time_seconds": 4.4
+    "time_seconds": 5.55
   },
   {
     "id": "q_0628",
@@ -14655,7 +14602,7 @@
       8
     ],
     "raw_model_output": "{\n  \"answer\": \"Vé tháng không ưu tiên rẻ hơn, chênh lệch 100.000 đồng\",\n  \"evidence_pages\": [7, 8]\n}",
-    "time_seconds": 5.25
+    "time_seconds": 5.69
   },
   {
     "id": "q_0629",
@@ -14671,7 +14618,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": 15,\n  \"evidence_pages\": [6]\n}",
-    "time_seconds": 3.74
+    "time_seconds": 4.6
   },
   {
     "id": "q_0630",
@@ -14696,7 +14643,7 @@
       4
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"2050\",\n    \"2030\",\n    \"2030\"\n  ],\n  \"evidence_pages\": [\n    2,\n    4\n  ]\n}",
-    "time_seconds": 7.79
+    "time_seconds": 9.29
   },
   {
     "id": "q_0631",
@@ -14721,7 +14668,7 @@
       6
     ],
     "raw_model_output": "{\n  \"answer\": \"Kéo có lưỡi dài 7 cm\",\n  \"evidence_pages\": [3, 4, 6]\n}",
-    "time_seconds": 4.98
+    "time_seconds": 5.61
   },
   {
     "id": "q_0632",
@@ -14738,7 +14685,7 @@
       2
     ],
     "raw_model_output": "{\n  \"answer\": 600000,\n  \"evidence_pages\": [1, 2]\n}",
-    "time_seconds": 3.86
+    "time_seconds": 4.18
   },
   {
     "id": "q_0633",
@@ -14754,7 +14701,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 170.73,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.52
+    "time_seconds": 3.98
   },
   {
     "id": "q_0634",
@@ -14770,7 +14717,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 330,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.07
+    "time_seconds": 3.47
   },
   {
     "id": "q_0635",
@@ -14786,7 +14733,7 @@
       1
     ],
     "raw_model_output": "{\n  \"answer\": 10,\n  \"evidence_pages\": [1]\n}",
-    "time_seconds": 3.05
+    "time_seconds": 3.59
   },
   {
     "id": "q_0636",
@@ -14806,7 +14753,7 @@
       5
     ],
     "raw_model_output": "{\n  \"answer\": [\n    \"Câu 2\",\n    \"Câu 8\",\n    \"Câu 18\",\n    \"Câu 19\",\n    \"Câu 20\",\n    \"Câu 24\",\n    \"Câu 29\"\n  ],\n  \"evidence_pages\": [\n    1,\n    2,\n    3,\n    4,\n    5\n  ]\n}",
-    "time_seconds": 10.78
+    "time_seconds": 11.48
   },
   {
     "id": "q_0637",
@@ -14831,7 +14778,7 @@
       7
     ],
     "raw_model_output": "{\n  \"answer\": 41.4,\n  \"evidence_pages\": [6, 7]\n}",
-    "time_seconds": 5.63
+    "time_seconds": 7.02
   },
   {
     "id": "q_0638",
@@ -14856,7 +14803,7 @@
       11
     ],
     "raw_model_output": "{\n  \"answer\": [\"HTKT\", \"EII\", \"EIS\"],\n  \"evidence_pages\": [8]\n}",
-    "time_seconds": 4.59
+    "time_seconds": 5.26
   },
   {
     "id": "q_0639",
@@ -14872,6 +14819,6 @@
       3
     ],
     "raw_model_output": "{\n  \"answer\": 4.56,\n  \"evidence_pages\": [3]\n}",
-    "time_seconds": 4.06
+    "time_seconds": 4.93
   }
 ]

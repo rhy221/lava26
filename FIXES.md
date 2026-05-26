@@ -184,6 +184,109 @@ VLM receives 3 pages of text; the answer is in a scanned page → model outputs 
 
 ---
 
+---
+
+## Issue #8 — `SCANNED_CHAR_THRESHOLD` Unused / `is_all_scanned` Over-triggers (LOW)
+
+**Symptom:** `SCANNED_CHAR_THRESHOLD = 50` defined in `pdf_utils.py` but never used.
+`is_all_scanned` used `num_low_content == num_pages` (< 200 chars), which could flag
+image-dominant PDFs (pages with 50–199 chars of sparse text) as "all-scanned" and route
+them through MaxSim-only, bypassing BM25/Dense entirely.
+
+**Root cause:** Single `is_low_content` flag served two purposes:
+1. BM25/Dense exclusion (no usable text)
+2. VLM image feed trigger
+
+These require different thresholds: a page with 150 chars of caption text is still useful
+for BM25, but should still get an image fed to the VLM.
+
+**Fix:** `src/utils/pdf_utils.py`
+- `extract_pages()` now returns 5-tuple: `(page_num, text, is_low_content, is_pure_scanned, has_table)`
+- `is_pure_scanned = len(text) < SCANNED_CHAR_THRESHOLD` (< 50 chars) — truly no text layer
+- `is_low_content` unchanged (< 200) — still used for VLM image feed decision
+
+**Fix:** `run.py`
+- `num_pure_scanned` counter added
+- `is_all_scanned = num_pure_scanned == num_pages` (stricter — only truly blank PDFs)
+- `text_bearing_idx` now uses `not is_pure_scanned` — includes 50–199 char pages in BM25/Dense
+- Phase 1 `is_fully_scanned` also updated to use `is_pure_scanned`
+- Cache back-fill: old cache entries without `is_pure_scanned` are computed on-load
+
+**Fix:** `_load_parsed_pages()`
+- New parses write `is_pure_scanned` to the JSON cache
+- On cache hit: back-fills `is_pure_scanned` from stored `text` length if field is absent
+
+---
+
+## Issue #9 — `has_table` Always False / Table Pages Not Sent as Images (LOW)
+
+**Symptom:** `has_table` was hardcoded to `False` in `_load_parsed_pages()`. Pages
+containing complex tables with `is_low_content=False` (≥200 chars of extracted text) were
+never sent as images to the VLM, even though the table structure is often lost in text
+extraction (misaligned columns, merged cells).
+
+**Root cause:** `pdf_utils.py` had no table detection logic; `has_table: False` was a
+placeholder.
+
+**Fix:** `src/utils/pdf_utils.py`
+- `extract_pages()` calls `page_obj.find_tables().tables` (PyMuPDF built-in table finder)
+- `has_table = bool(found_tables)` with `try/except` fallback to `False`
+- Stored in page dict and cache; used by existing `feed_image_when: [has_table]` VLM logic
+
+**Result:** Text-rich pages that also contain tables now get images fed to the VLM, giving
+the model both the extracted text and the visual table layout.
+
+---
+
+## Issue #10 — Case D Scanned Pages Completely Invisible (MEDIUM)
+
+**Symptom:** Long PDFs (Case D, text_bearing > 7) may contain a few pure-scanned pages
+(e.g., lc=4/70). BM25+Dense scores those scanned pages near-zero → hybrid retrieval never
+selects them. If the answer is in a scanned page, the model outputs "0".
+
+**Root cause:** The MaxSim supplement logic (Issue #7) was only in the
+`elif len(text_bearing_idx) <= max_pages` branch (Case B/C). The `else` branch (Case D)
+had no mechanism to rescue pure-scanned pages.
+
+**Fix:** `run.py` — in the Case D `else` branch, after `hybrid_top_pages`:
+- Compute `pure_scanned_set` = indices of pages where `is_pure_scanned=True`
+- If any are unselected AND `n_room = max_pages - len(top_indices) > 0` AND MaxSim available:
+  use `maxsim_score_list` to rank unselected pure-scanned pages, add top ones to fill slots
+- Appends `+scan(Np)` to `retrieval_tag` when triggered
+
+**Fix:** `src/utils/visual_retriever.py`
+- Added `maxsim_score_list()` returning raw `list[float]` scores (before sorting)
+- `maxsim_ranked()` refactored to call `maxsim_score_list()` — no logic duplication
+
+---
+
+## Issue #11 — Evidence Expansion Only Activates in Case D (LOW)
+
+**Symptom:** `fused_scores = {}` for Cases A1, A2, B, C → `post_process.expand_evidence`
+never triggered, leaving single-page predictions uncorrected for 14% + 3% + 11.5% of cases.
+
+**Root cause:** Evidence expansion checked `if fused_scores:` which was empty for all
+non-hybrid paths.
+
+**Fix:** `run.py`
+- Case A1 (all-scanned MaxSim): after computing `raw_ms = maxsim_score_list(...)`,
+  populate `fused_scores = {enc_indices[i]: raw_ms[i] for i in range(...)}` so the existing
+  expansion logic fires using actual MaxSim dot-product values.
+- Case B (mixed): same — MaxSim scores stored in `fused_scores` after supplement run.
+- Cases A2 and C: no scores available; expansion still skipped gracefully.
+
+---
+
+## Files Changed (Phase 2)
+
+| File | Issues |
+|---|---|
+| `src/utils/pdf_utils.py` | #8, #9 |
+| `src/utils/visual_retriever.py` | #10, #11 |
+| `run.py` | #8, #10, #11 |
+
+---
+
 ## Before vs After (Expected)
 
 | Metric | Before | Target |
