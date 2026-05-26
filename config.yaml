@@ -14,7 +14,7 @@ model:
     backend: vllm                   # vllm | transformers
     mode: vlm                       # text_only | vlm
     vllm_url: http://localhost:8000/v1
-    gpu_memory_utilization: 0.50   # no ColQwen competing in Phase 2 → can use more
+    gpu_memory_utilization: 0.20   # reduced: shared GPU — other processes may consume majority of VRAM
     quantization: bitsandbytes       # 4-bit NF4
     max_model_len: 32768
     enable_thinking: false
@@ -40,7 +40,7 @@ retriever:
   mixed_scan_threshold: 0.4        # lc_ratio >= this → supplement text pages with MaxSim scanned pages
 
 visual:                      # ColQwen visual retrieval
-  enabled: true              # Phase 1: encode pages + queries; Phase 2: MaxSim from cache
+  enabled: false             # disabled: ColQwen occupies ~9.2 GiB competing with vLLM on shared GPU
   retriever_model: /datastore/${oc.env:USER}/models/colqwen2.5-v0.2
   retriever_dpi: 120
   retriever_batch_size: 4
