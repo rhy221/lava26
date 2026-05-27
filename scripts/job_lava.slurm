@@ -157,7 +157,6 @@ VLLM_PLUGINS="" "$VLLM" serve "$MODEL_DIR" \
     --max-num-batched-tokens 8192 \
     --gpu-memory-utilization 0.20 \
     --enforce-eager \
-    --limit-mm-per-prompt '{"image": 6}' \
     --generation-config vllm \
     --override-generation-config '{"enable_thinking": false}' \
     > "$VLLM_LOG" 2>&1 &
