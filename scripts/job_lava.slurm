@@ -26,7 +26,7 @@ module load cuda12.8/toolkit/12.8.1
 export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64:${LD_LIBRARY_PATH:-}
 
 # ── 2. KHAI BÁO BIẾN ─────────────────────────────────────────────────────────
-REQUIRED_VRAM=40000
+REQUIRED_VRAM=20000
 PROJECT_DIR=/datastore/$USER/LAVA2026_2/lava26
 PYTHON=/datastore/$USER/miniconda3/envs/vqa-jv/bin/python
 VLLM=/datastore/$USER/miniconda3/envs/vqa-jv/bin/vllm
